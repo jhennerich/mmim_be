@@ -11,10 +11,10 @@ class GoogleMapApiService
 
   def address_to_geocode(address)
     response = conn.get("geocode/json?address=#{address}")
+    parse_json(response)
   end
 
-  def nearbysearch(midpoint_location)
-    response = conn.get("/nearbysearch/json?location=#{midpoint_location}"
-  end
-
+#  def nearbysearch(midpoint_location)
+#    response = conn.get("/nearbysearch/json?location=#{midpoint_location}")
+#  end
 end

@@ -1,4 +1,4 @@
 class UserMeeting < ApplicationRecord
-  belongs_to :user_id
-  belongs_to :meeting_id
+  belongs_to :user
+  belongs_to :meeting
 end

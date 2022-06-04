@@ -1,0 +1,109 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "1583",
+                    "short_name": "1583",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "Newton Street",
+                    "short_name": "Newton St",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "West",
+                    "short_name": "West",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Denver",
+                    "short_name": "Denver",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Denver County",
+                    "short_name": "Denver County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Colorado",
+                    "short_name": "CO",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "United States",
+                    "short_name": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "80204",
+                    "short_name": "80204",
+                    "types": [
+                        "postal_code"
+                    ]
+                },
+                {
+                    "long_name": "1565",
+                    "short_name": "1565",
+                    "types": [
+                        "postal_code_suffix"
+                    ]
+                }
+            ],
+            "formatted_address": "1583 Newton St, Denver, CO 80204, USA",
+            "geometry": {
+                "bounds": {
+                    "northeast": {
+                        "lat": 39.74241689999999,
+                        "lng": -105.0371777
+                    },
+                    "southwest": {
+                        "lat": 39.7423384,
+                        "lng": -105.0373722
+                    }
+                },
+                "location": {
+                    "lat": 39.7423858,
+                    "lng": -105.0372717
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.7437266302915,
+                        "lng": -105.0358316697085
+                    },
+                    "southwest": {
+                        "lat": 39.7410286697085,
+                        "lng": -105.0385296302915
+                    }
+                }
+            },
+            "place_id": "ChIJ73IN71mHa4cR5hKjKU2s2mU",
+            "types": [
+                "premise"
+            ]
+        }
+    ],
+    "status": "OK"
+}

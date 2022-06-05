@@ -3,13 +3,9 @@ class LocationFacade
     GoogleMapApiService.new
   end
 
-  def self.address_to_geocode(address)
-    results = service.address_to_geocode(address)
-  end
-
-  def self.get_near_by_locations
-    midpoint_location = "39.7423858%2C-105.0372717"
-    resutls = service.nearbysearch(midpoint_location)
+  def self.get_near_by_locations(midpoint_attributes)
+#    midpoint_coords = "39.7423858%2C-105.0372717"
+    results = service.nearbysearch(midpoint_attributes)
     #create_location(results)
   end
 

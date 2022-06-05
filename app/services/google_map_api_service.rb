@@ -14,7 +14,8 @@ class GoogleMapApiService
     parse_json(response)
   end
 
-#  def nearbysearch(midpoint_location)
-#    response = conn.get("/nearbysearch/json?location=#{midpoint_location}")
-#  end
+  def nearbysearch(attributes)
+    response = conn.get("place/nearbysearch/json?#{attributes}")
+    parse_json(response)
+  end
 end

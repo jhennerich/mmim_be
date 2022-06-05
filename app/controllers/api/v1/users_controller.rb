@@ -9,6 +9,13 @@ class Api::V1::UsersController < ApplicationController
       end
   end
 
+  def update
+    user = User.find_by(email: user_params[:email])
+    user.update(user_params)
+    render json: UserSerializer.new(user), status: 201
+
+  end
+
   private
 
   def user_params

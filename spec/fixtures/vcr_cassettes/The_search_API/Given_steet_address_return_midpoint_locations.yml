@@ -1,0 +1,1330 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=1583%20Newton%20St%20Denver%20CO&key=google_api_key
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 06 Jun 2022 01:30:09 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Goog-Maps-Metro-Area:
+      - Denver, CO
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=92
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "1583",
+                       "short_name" : "1583",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Newton Street",
+                       "short_name" : "Newton St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "West",
+                       "short_name" : "West",
+                       "types" : [ "neighborhood", "political" ]
+                    },
+                    {
+                       "long_name" : "Denver",
+                       "short_name" : "Denver",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Denver County",
+                       "short_name" : "Denver County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Colorado",
+                       "short_name" : "CO",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "80204",
+                       "short_name" : "80204",
+                       "types" : [ "postal_code" ]
+                    },
+                    {
+                       "long_name" : "1565",
+                       "short_name" : "1565",
+                       "types" : [ "postal_code_suffix" ]
+                    }
+                 ],
+                 "formatted_address" : "1583 Newton St, Denver, CO 80204, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 39.74241689999999,
+                          "lng" : -105.0371777
+                       },
+                       "southwest" : {
+                          "lat" : 39.7423384,
+                          "lng" : -105.0373722
+                       }
+                    },
+                    "location" : {
+                       "lat" : 39.7423858,
+                       "lng" : -105.0372717
+                    },
+                    "location_type" : "ROOFTOP",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7437266302915,
+                          "lng" : -105.0358316697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7410286697085,
+                          "lng" : -105.0385296302915
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJ73IN71mHa4cR5hKjKU2s2mU",
+                 "types" : [ "premise" ]
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Mon, 06 Jun 2022 01:30:09 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/geocode/json?address=2300%20Steele%20St%20Denver%20CO&key=google_api_key
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 06 Jun 2022 01:30:09 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Vary:
+      - Accept-Language
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Goog-Maps-Metro-Area:
+      - Denver, CO
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=133
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "2300",
+                       "short_name" : "2300",
+                       "types" : [ "street_number" ]
+                    },
+                    {
+                       "long_name" : "Steele Street",
+                       "short_name" : "Steele St",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Denver",
+                       "short_name" : "Denver",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Denver County",
+                       "short_name" : "Denver County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "Colorado",
+                       "short_name" : "CO",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "80205",
+                       "short_name" : "80205",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "2300 Steele St, Denver, CO 80205, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 39.7512038,
+                          "lng" : -104.9447319
+                       },
+                       "southwest" : {
+                          "lat" : 39.7474408,
+                          "lng" : -104.9564396
+                       }
+                    },
+                    "location" : {
+                       "lat" : 39.7491023,
+                       "lng" : -104.9520274
+                    },
+                    "location_type" : "GEOMETRIC_CENTER",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7512038,
+                          "lng" : -104.9447319
+                       },
+                       "southwest" : {
+                          "lat" : 39.7474408,
+                          "lng" : -104.9564396
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJGbAaIE55bIcRAoqv1-bazkw",
+                 "types" : [ "premise" ]
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Mon, 06 Jun 2022 01:30:09 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=google_api_key&location=39.74574405,-104.99464955&radius=1500&type=cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 06 Jun 2022 01:30:10 GMT
+      Expires:
+      - Mon, 06 Jun 2022 01:35:10 GMT
+      Cache-Control:
+      - public, max-age=300
+      Vary:
+      - Accept-Language
+      Server:
+      - scaffolding on HTTPServer2
+      Content-Length:
+      - '6960'
+      X-Xss-Protection:
+      - '0'
+      X-Frame-Options:
+      - SAMEORIGIN
+      Server-Timing:
+      - gfet4t7; dur=161
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
+        ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "Aap_uEBwkdIxmbkSIO0Zb-FEFACy7f13s0jB3na3QI0TPQdZk0mUt-Ch23A3-fmFu7OC6L6HgHtTaLh58LV1_in4iDUkWgu1pUWUrjAhqT8qqYN0aG8kNYAh05WT4Ew3ZX6gS3To52t1wcFRk6uo-cbgRcxrbF81I5sJdVBgA5wsKR2CXPBFA2zXaoqLD90jWxmMaq8L6joEiqFigaJzen3CbhbXnueT3NfubK3G0bthijSBKuL63ZOhfXDETbdTM02oeGyDNbK8VZwz5y-zU6XEr-_cOUoWIbw4_bMC7VEhq3L7EucnYMQUNU6Ly90fvFky4n0Hh-HPMfkeSbJb3BcUM8ps-pia3fuwAeqEdITdcGvHyYYtgjR4iJbYkBpwFYO-Xhl4KEUF_h2v_Pj-tcOrlxarPbeOvQ8spexuwMMm2Skn-bYCtrxf",
+           "results" : [
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7508417,
+                       "lng" : -104.9853639
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7521314302915,
+                          "lng" : -104.9838426697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7494334697085,
+                          "lng" : -104.9865406302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "icon_background_color" : "#13B5C7",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                 "name" : "Mercury Cafe",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1079,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117715928410483899214\"\u003eShelley Seale\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEDLNYREB_x4GsLgiGHslAirYJI2-PAusABR4VTkl9Y_pDidNU5Zs-VyBBsMEUWxElcQ-Hx0sceFPNdkpPGhw-bQZW7PAhO2Vz6M-KIbMSbDeU24SyIs0qqAVAXLOL-Og3qyAG12skKY_fOBMkeyMNIHKVIMji7F4TkxHUf8he-9jqHq",
+                       "width" : 1440
+                    }
+                 ],
+                 "place_id" : "ChIJl7-Ogyd5bIcRTgzca2cfXmw",
+                 "plus_code" : {
+                    "compound_code" : "Q227+8V Denver, CO, USA",
+                    "global_code" : "85FQQ227+8V"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.5,
+                 "reference" : "ChIJl7-Ogyd5bIcRTgzca2cfXmw",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 1664,
+                 "vicinity" : "2199 California Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7366908,
+                       "lng" : -104.9846353
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7380735802915,
+                          "lng" : -104.9833961697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7353756197085,
+                          "lng" : -104.9860941302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "City O' City",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 960,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111459726925022097821\"\u003eCity O&#39; City\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEC5bkIOJVDEkVc030mQ1DUxb29EWQd4Mx8Tdy9zK99GxAgx3N-MA8Mhp-bpx1wwCpFMRMZlESLVfWMQXIQQ35eBd47T2kl_K06_xT8cYLqYfwwOo4XFNy23MDb7JvCgOeHsj2-fvakqZCTQaxUHU60nP9UwcUuP7fzSOEAa9Eq126Rv",
+                       "width" : 1280
+                    }
+                 ],
+                 "place_id" : "ChIJHwJJbNV-bIcRPRt9CACJxTs",
+                 "plus_code" : {
+                    "compound_code" : "P2P8+M4 Denver, CO, USA",
+                    "global_code" : "85FQP2P8+M4"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.5,
+                 "reference" : "ChIJHwJJbNV-bIcRPRt9CACJxTs",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "bakery",
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "bar",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 4954,
+                 "vicinity" : "206 East 13th Avenue, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7459557,
+                       "lng" : -104.9813577
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7474181802915,
+                          "lng" : -104.9799217697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7447202197085,
+                          "lng" : -104.9826197302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "D Bar Denver",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 7360,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/110607988110136142067\"\u003eD Bar Denver\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAcQl7FLr97RZ4nHpz446djVaM2HoF20C0xyHPdhA0KeBKfmJ5pHXHnmKupmhniVPaxjx06P1VJmTk2nEQPW3TB6hPpVOhVYA3bvfdbxNsRU7qlug6YhrjC6i-rjPK3f1r73aVQIxT42Z7ibYf-aIa-1jMGu6cYggqqzbpUQWmgXlPK",
+                       "width" : 4912
+                    }
+                 ],
+                 "place_id" : "ChIJZfxKmTN5bIcRZQSdZN7EZ0g",
+                 "plus_code" : {
+                    "compound_code" : "P2W9+9F Denver, CO, USA",
+                    "global_code" : "85FQP2W9+9F"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.4,
+                 "reference" : "ChIJZfxKmTN5bIcRZQSdZN7EZ0g",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "bakery",
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "bar",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 950,
+                 "vicinity" : "494 East 19th Avenue, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7430442,
+                       "lng" : -104.9883113
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7443417302915,
+                          "lng" : -104.9868967197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7416437697085,
+                          "lng" : -104.9895946802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "The Delectable Egg",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115498716304628993647\"\u003eJosh Lower\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAGA6qJSzwSdOLFqPC9J7o_5nhvJGbwVBm8enBiZg4T3TPMx7v6Dv0at6qXvlkRtGv8eUN9AiUn6-DFSp-UhIdyKk6k0UvR9Q8YPanH2oyv_ffq0fpbuEPJVeoqxVxR67VTkywacctvKsbLsLgkrpOOiMNcR6xbMGKKVDKnVQwswHa4",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJvUaJ1tV4bIcRZA5jdVPJw-4",
+                 "plus_code" : {
+                    "compound_code" : "P2V6+6M Denver, CO, USA",
+                    "global_code" : "85FQP2V6+6M"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.1,
+                 "reference" : "ChIJvUaJ1tV4bIcRZA5jdVPJw-4",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 1094,
+                 "vicinity" : "1625 Court Place, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.74179299999999,
+                       "lng" : -104.9881641
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.74315028029149,
+                          "lng" : -104.9867012197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7404523197085,
+                          "lng" : -104.9893991802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "McDonald's",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118082248383104632865\"\u003eK H\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAeft0D8WMPd-E89yfnMI4vH7u0vn9uy_mENuRuosbtfl0ZMNJVbyP2p52K_8kBKtSH5Lj4JsRxv2g9AD68MnxAzfFRhmT5LIffECghA9qMG2WKAaHOzJ_yxBbnW7LREG6FqUhULshrgfkURP3Xs1M2n5oyXL0BwgYRWexI5oMDba8h",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ9RVsttV4bIcRmTJi56P8BH0",
+                 "plus_code" : {
+                    "compound_code" : "P2R6+PP Denver, CO, USA",
+                    "global_code" : "85FQP2R6+PP"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.2,
+                 "reference" : "ChIJ9RVsttV4bIcRmTJi56P8BH0",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 2201,
+                 "vicinity" : "200 16th Street Mall, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.74638890000001,
+                       "lng" : -104.9808333
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.74769973029151,
+                          "lng" : -104.9796109197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.74500176970851,
+                          "lng" : -104.9823088802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Fluid Coffee Bar",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117683279927442160425\"\u003eKim E\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAkIhoZxfJs18QqPezS0vb2OUunyYFH5Ar5Br1aRSkQYVU4QpMY9I--Iyl43qk68IgsRZ3sjDZZBy_PT6K2Trp262la5wWqD9HBw2SYeel36NWRvoN8DJlmANb7-jvtEmy28QvWzTzfRqQ8Nzmc8CC1R2xpb70B7MlDGMJROvf-EcZY",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJ0zkuISl5bIcRQLZXJRkFPuY",
+                 "plus_code" : {
+                    "compound_code" : "P2W9+HM Denver, CO, USA",
+                    "global_code" : "85FQP2W9+HM"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.5,
+                 "reference" : "ChIJ0zkuISl5bIcRQLZXJRkFPuY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 602,
+                 "vicinity" : "501 East 19th Avenue, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7504425,
+                       "lng" : -104.9996598
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7516864802915,
+                          "lng" : -104.9982181697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7489885197085,
+                          "lng" : -105.0009161302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Little Owl Coffee",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 672,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107041036435983271956\"\u003eLittle Owl Coffee\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEC6WSXuSNenecfTG7w8iYygQZoyDonAmZHoRd6ScdQJbA9A1WF7jQvQbB_VziPiA_Gp7CXAYKxr4AsGbSSaXe9l69uMOw5RzN3n2tMzKQC48uEcIDelp5Oum0zxEzhdloXiUR9rm0V1ahRgGjUighCqf8SG-hS0sVR9MsnMvHbUdGXq",
+                       "width" : 1000
+                    }
+                 ],
+                 "place_id" : "ChIJJxEIjcR4bIcR5SbVYngKOz0",
+                 "plus_code" : {
+                    "compound_code" : "Q222+54 Denver, CO, USA",
+                    "global_code" : "85FQQ222+54"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.7,
+                 "reference" : "ChIJJxEIjcR4bIcR5SbVYngKOz0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 836,
+                 "vicinity" : "1555 Blake Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7470866,
+                       "lng" : -104.9903284
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7483208302915,
+                          "lng" : -104.9888315197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.74562286970851,
+                          "lng" : -104.9915294802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Starbucks",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 6936,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/118401636883222848340\"\u003eSarah Weedin\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uECkcafxFPajpaR__sfNyjk_G2rhbmOVnL4vTpdifuvSI645aNuIEBZSVtHSc5A5LXV4ZosifOb82oIWIDSWzIX64A-Tra7ehM3YW6BgGPEbS9HW0JR3CXc-l3MFXc3JRGtn-vD1TdjAUzk2xT7Td-A_6sSnIfDTbQEu0XYPZUeA57g_",
+                       "width" : 9248
+                    }
+                 ],
+                 "place_id" : "ChIJ7wc1RNd4bIcRvjS0xU_eh9M",
+                 "plus_code" : {
+                    "compound_code" : "P2W5+RV Denver, CO, USA",
+                    "global_code" : "85FQP2W5+RV"
+                 },
+                 "price_level" : 2,
+                 "rating" : 3.8,
+                 "reference" : "ChIJ7wc1RNd4bIcRvjS0xU_eh9M",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 74,
+                 "vicinity" : "1701 California Street, Denver"
+              },
+              {
+                 "business_status" : "CLOSED_TEMPORARILY",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7450637,
+                       "lng" : -104.9917044
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7464656802915,
+                          "lng" : -104.9905248697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7437677197085,
+                          "lng" : -104.9932228302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "Einstein Bros. Bagels",
+                 "permanently_closed" : true,
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100291785389838647487\"\u003eJ\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uECiSctTAmXzxxSshY1rnmV_3cD-Sf_1lrR2Jv1A4s796ofUJ2eFQuLthGyFY1UaJij0Eh7iYQmcXncmOqhgmPG0-8AU6km8w0qozvZ8wA9q1bZaB3NfXiQs_F36d00MB-cQDxwRoULW3G_16kGx9z0KYJOSAZscJowvKH9TQ6_ZnqN3",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJ9Ud11dB4bIcRCcricPkwryo",
+                 "plus_code" : {
+                    "compound_code" : "P2W5+28 Denver, CO, USA",
+                    "global_code" : "85FQP2W5+28"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4,
+                 "reference" : "ChIJ9Ud11dB4bIcRCcricPkwryo",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "bakery",
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 362,
+                 "vicinity" : "1600 California Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7491125,
+                       "lng" : -104.9962862
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7503717302915,
+                          "lng" : -104.9946863697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7476737697085,
+                          "lng" : -104.9973843302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "ink Coffee Tabor",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 633,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107802992226824540736\"\u003eink Coffee Tabor\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uED5nbRAOXe2uvE8UJZembvoQr3zSP9pOgpo8xriOxwaRE82kVrrOBD9hpgCrZx0mKot-RJ6gY-okOBYDDtBlKZPWJX25DAmibOtjojwaWYLxR13wHneXfC_DfB8l_n03FdKSWOsTrqFNsyajci6oN_tFF5_Rl2JnZH7b34Mvd5DUPtE",
+                       "width" : 1125
+                    }
+                 ],
+                 "place_id" : "ChIJD4rGGtt4bIcR_i8W007wqUo",
+                 "plus_code" : {
+                    "compound_code" : "P2X3+JF Denver, CO, USA",
+                    "global_code" : "85FQP2X3+JF"
+                 },
+                 "rating" : 2.4,
+                 "reference" : "ChIJD4rGGtt4bIcR_i8W007wqUo",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 48,
+                 "vicinity" : "One Tabor Center, 1200 17th Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7441774,
+                       "lng" : -104.9897765
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.74558868029149,
+                          "lng" : -104.9884722197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.74289071970849,
+                          "lng" : -104.9911701802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Novo Coffee",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107373603922332025156\"\u003eLily Chang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEC6MkDBTSwT_SEgvWQjtNks0ItfNe2Y25S7IyOqO1XNJSl1vRkw4yPAsTINitU6A-WEETHBQxQhDjd8YpweyWRYOY0XXnmWvx8fingtNCgL1VmLTIIOf7ZnrjHJcOC01fG3i8pihtx24Nnls6NXXglYFI3gvIB66B6kpafwCDTWRQ4",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJ1ehL6tZ4bIcR8WyKkLSsMEQ",
+                 "plus_code" : {
+                    "compound_code" : "P2V6+M3 Denver, CO, USA",
+                    "global_code" : "85FQP2V6+M3"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.5,
+                 "reference" : "ChIJ1ehL6tZ4bIcR8WyKkLSsMEQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "bar", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 712,
+                 "vicinity" : "1600 Glenarm Place, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7513255,
+                       "lng" : -105.0014138
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7525767802915,
+                          "lng" : -105.0001156197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.74987881970851,
+                          "lng" : -105.0028135802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                 "icon_background_color" : "#7B9EB0",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                 "name" : "The Alliance Center",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3744,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109959689975747448682\"\u003eThe Alliance Center\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAPSDYnNYLu7N1752wMug4aZNhYOHYX6rURc5aGTbabVBH4isXT0KBgoozFk94tfTEs_ciJYmiDqLw4nI8ukKMSOF5wBsCaqXJBM_YTPeo3vmXHqWUpI0lS6cykUhMKMPEk5Kwb5_hdPpXkZVav2Av-4j2hYbiPN33mWczZNdJYUuRF",
+                       "width" : 5616
+                    }
+                 ],
+                 "place_id" : "ChIJCf9IdMR4bIcRG_Q5RPwVnKw",
+                 "plus_code" : {
+                    "compound_code" : "QX2X+GC Denver, CO, USA",
+                    "global_code" : "85FPQX2X+GC"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJCf9IdMR4bIcRG_Q5RPwVnKw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 81,
+                 "vicinity" : "1536 Wynkoop Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7429605,
+                       "lng" : -104.9889796
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7442626802915,
+                          "lng" : -104.9877083697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7415647197085,
+                          "lng" : -104.9904063302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Starbucks",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2268,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105242518271508205960\"\u003eKeith Tomline\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEBr3tcvz8-Ze8UyFVrdqmfI4YZ24F77_6w_cpTPzXxPga_gER4RRZldp9DlxHO7F2Kha1riyACCTCXIY6gKcUY2ddiET7IUrUK4_lHpPFMZcFWXStS7xFes_uKL7uV0nXjjOajmoV6PK6Ow9enB_TgOvy2i6RxLkA5o_qy5OzNhWEuK",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJuQLXKdR4bIcRcnWLTGaL__U",
+                 "plus_code" : {
+                    "compound_code" : "P2V6+5C Denver, CO, USA",
+                    "global_code" : "85FQP2V6+5C"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.1,
+                 "reference" : "ChIJuQLXKdR4bIcRcnWLTGaL__U",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 699,
+                 "vicinity" : "303 16th Street Mall Ste. 100, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7428771,
+                       "lng" : -104.9868044
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7442698302915,
+                          "lng" : -104.9857754197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7415718697085,
+                          "lng" : -104.9884733802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Starbucks",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2268,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103614928946175991574\"\u003eGeorge Foster\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uECpAb3LyFmr2YsA3PtNpcGfqV4JbPBLCIwuBCcAi97ujuXJs7VYnxt2qEmeyL75wqx2MT4fLRQ34FBJinGCQppsXLU4MTfM8dL4ONYjPDxObNZz2lomWa2HwPaIvDBDIgEnyNigca7nhbDJNEm2LESxZxQ9yQLTuIqF044eo_MI1Gv5",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJZ2p659V4bIcRiP-FO4LYkDg",
+                 "plus_code" : {
+                    "compound_code" : "P2V7+57 Denver, CO, USA",
+                    "global_code" : "85FQP2V7+57"
+                 },
+                 "price_level" : 2,
+                 "rating" : 4.3,
+                 "reference" : "ChIJZ2p659V4bIcRiP-FO4LYkDg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 156,
+                 "vicinity" : "1670 Broadway #110, Denver"
+              },
+              {
+                 "business_status" : "CLOSED_TEMPORARILY",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7478387,
+                       "lng" : -104.9949088
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7494981802915,
+                          "lng" : -104.9931101697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7468002197085,
+                          "lng" : -104.9958081302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "Woody Creek Bakery & Cafe",
+                 "permanently_closed" : true,
+                 "photos" : [
+                    {
+                       "height" : 5312,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103865731934417906422\"\u003eBick Benedict\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uECgv4VC7csNRceoNsT4pF8UewjKLbgOzgb5-h5avCU-CsiPsC7N5Jp2Ov1mAsPP_WzzW247GmCJor2N33nO41HzyJecJosuIkoHjpedvGyFn1R8M0RThCukxd90-mKI77nozhAs-1K2P_Y1ly5HjVQ0nWjAqEDxrMkMNDN91O8bkejo",
+                       "width" : 2988
+                    }
+                 ],
+                 "place_id" : "ChIJHY5jhNp4bIcR8D7GvgEz__g",
+                 "plus_code" : {
+                    "compound_code" : "P2X4+42 Denver, CO, USA",
+                    "global_code" : "85FQP2X4+42"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.9,
+                 "reference" : "ChIJHY5jhNp4bIcR8D7GvgEz__g",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "bakery",
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 48,
+                 "vicinity" : "1001 16th Street Mall A130, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7471279,
+                       "lng" : -104.9916026
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7484176802915,
+                          "lng" : -104.9902166697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7457197197085,
+                          "lng" : -104.9929146302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Three Sisters Cafe & Catering",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1536,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117711220499010239186\"\u003eTina Pino\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEDLoTpXBgr98XKYW9NNKyp7C-DOe8HCo3fEwnTkQEkcRBHpqBFPhNfczI1OHtPtiWHnLiVRQkzmDYlF87pPJ5IzkuO5gTx_Oxn4jZZlE-k3It8z35RTrllt7TR3adaIMuMOSslo-kze27p47uSYhLDcyG1VaJPAVpS-XPRyi9vWMBcY",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJ6_MUrdB4bIcRBLSLRfcJe_U",
+                 "plus_code" : {
+                    "compound_code" : "P2W5+V9 Denver, CO, USA",
+                    "global_code" : "85FQP2W5+V9"
+                 },
+                 "price_level" : 1,
+                 "rating" : 4.5,
+                 "reference" : "ChIJ6_MUrdB4bIcRBLSLRfcJe_U",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 174,
+                 "vicinity" : "1717 Stout Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.747058,
+                       "lng" : -104.9918532
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.74833613029149,
+                          "lng" : -104.9905713197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.74563816970849,
+                          "lng" : -104.9932692802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "Bruegger's Bagels",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105379789701475622852\"\u003eAryeh Landowne\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uECJ90g_PYREBqD-G-4pNbHS83tlCvLQU4-1vvyrh1P-R7rO_Ob7uS_5WVPxKU-7KA168_7HXLPq3Fki-EDKawNkY_QtojsqHuVlIiKsodFgzhdo0ZjSGGAS2N8q9SqHXRgT1GACrrQ5_zMX8bYpBGI3rBgCCeDvSISpoLL5HDMLVEV-",
+                       "width" : 3024
+                    }
+                 ],
+                 "place_id" : "ChIJRQq8pdB4bIcR3hZb2A1SjIg",
+                 "plus_code" : {
+                    "compound_code" : "P2W5+R7 Denver, CO, USA",
+                    "global_code" : "85FQP2W5+R7"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.6,
+                 "reference" : "ChIJRQq8pdB4bIcR3hZb2A1SjIg",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "bakery",
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "point_of_interest",
+                    "store",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 326,
+                 "vicinity" : "817 17th Street Bank Lofts Building, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.75118399999999,
+                       "lng" : -104.9942901
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7526096802915,
+                          "lng" : -104.9931259197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7499117197085,
+                          "lng" : -104.9958238802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Intermission Cafe",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 576,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107538160601433139539\"\u003eIntermission Cafe\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAmXDtX8W25IsmGPui4Q6uYYZdvNygdRZwntmhjpsgXMiASrwWCUh1fEol_Z2xdNCRGixpdIoBqUyNh1qFJBc4tnIj5ktR5CihmLTfaTlLELbUB8dBjCaY7DjnTh8apcq4WPSfcHKKIb2nnl8IMIbnLUvh1Qj0atH-5Q48NmW6kuMJg",
+                       "width" : 693
+                    }
+                 ],
+                 "place_id" : "ChIJ4-YYc9t4bIcRDHJ-8q_kYRk",
+                 "plus_code" : {
+                    "compound_code" : "Q224+F7 Denver, CO, USA",
+                    "global_code" : "85FQQ224+F7"
+                 },
+                 "rating" : 3.9,
+                 "reference" : "ChIJ4-YYc9t4bIcRDHJ-8q_kYRk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 32,
+                 "vicinity" : "1800 Larimer Street Suite 101, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.74421710000001,
+                       "lng" : -104.9876545
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7456370302915,
+                          "lng" : -104.9864987697085
+                       },
+                       "southwest" : {
+                          "lat" : 39.74293906970851,
+                          "lng" : -104.9891967302915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Afternoon Tea at The Brown Palace",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1365,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112503689357757765819\"\u003eAfternoon Tea at The Brown Palace\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEDDJg4A6JwSIzDyUvH4HikBiXRWFOtOJAQjbm3gHWFFV9Tn2nKuKHjs5xKGGhlaWD4ANXlaP83W39FlNuRXW_Ep9ySTbvs2EvpZfOFa1WSdbzZn8EEwyF89JtzyXKfU-UH8A8cxFckO2CFpP2n6JSvkEKkAeHfMlTkqdXFSSsPkYilj",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJ9dBRb9Z4bIcRsmFlxxOFd1k",
+                 "plus_code" : {
+                    "compound_code" : "P2V6+MW Denver, CO, USA",
+                    "global_code" : "85FQP2V6+MW"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJ9dBRb9Z4bIcRsmFlxxOFd1k",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "bar", "point_of_interest", "establishment" ],
+                 "user_ratings_total" : 203,
+                 "vicinity" : "321 17th Street, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.7470014,
+                       "lng" : -104.9947985
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.7483968302915,
+                          "lng" : -104.9935178197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7456988697085,
+                          "lng" : -104.9962157802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+                 "name" : "Starbucks",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107156547597850084304\"\u003eAnirudh Koul\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEDuu9DDNGjvLZzFxkTqBIS8lKXeTtZUxQZ71VpF0f0tAnJMvI5bsTKt7XRWM22LMJxaqlf43R56rYXsmj34VkDHyWJldzu4zRJopZasrMuaRMIIYr9RMLZN459v_jsXJsRsElWOu3N9B8F6C07t3boEkzwX4za4iIbjmj1aQCaSgnXH",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJxfGSb9B4bIcR716Wian8J9A",
+                 "plus_code" : {
+                    "compound_code" : "P2W4+R3 Denver, CO, USA",
+                    "global_code" : "85FQP2W4+R3"
+                 },
+                 "price_level" : 2,
+                 "rating" : 3.9,
+                 "reference" : "ChIJxfGSb9B4bIcR716Wian8J9A",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "food", "point_of_interest", "store", "establishment" ],
+                 "user_ratings_total" : 313,
+                 "vicinity" : "934 16th Street Mall, Denver"
+              }
+           ],
+           "status" : "OK"
+        }
+  recorded_at: Mon, 06 Jun 2022 01:30:10 GMT
+recorded_with: VCR 6.1.0

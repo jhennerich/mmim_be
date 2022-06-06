@@ -1,6 +1,5 @@
 class Api::V1::SearchController < ApplicationController
   def index
-
     address_1 = search_params[:address_1]
     address_2 = search_params[:address_2]
     category = search_params[:category]
@@ -15,15 +14,8 @@ class Api::V1::SearchController < ApplicationController
     midpoint_attributes = "location=#{midpoint_coords}&radius=1500&type=#{search_params[:category]}"
 
     locations = LocationFacade.get_near_by_locations(midpoint_attributes)
-    wip = render json: LocationSerializer.new(locations)
+    render json: LocationSerializer.new(locations)
   end
-
-#   def build_nearby_search_attributes(coords)
-#     lat = coords[:lat]
-#     lng = coords[:lng]
-#     location="#{lat}%2C#{lng}"
-# #    &radius=1500&type=restaurant
-#   end
 
   private
   def search_params

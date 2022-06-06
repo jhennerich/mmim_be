@@ -19,8 +19,9 @@ class LocationResponse
     @address = attr[:vicinity]
     @lat = attr[:geometry][:location][:lat]
     @lng = attr[:geometry][:location][:lng]
-    @rating = attr[:rating]
-    @price_level = attr[:price_level]
+    @rating = attr[:rating].to_f
+    @image_url = attr[:photos].first[:photo_reference]
+    @price_level = attr[:price_level].to_i
   end
 
 end

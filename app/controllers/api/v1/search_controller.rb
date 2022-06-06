@@ -13,7 +13,7 @@ class Api::V1::SearchController < ApplicationController
     midpoint_coords = "#{midpoint_lat}%2C#{midpoint_lng}"
     midpoint_attributes = "location=#{midpoint_coords}&radius=1500&type=#{search_params[:category]}"
 
-    locations = LocationFacade.get_near_by_locations(midpoint_attributes)
+    locations = LocationFacade.get_near_by_locations(midpoint_attributes)[0..4]
     render json: LocationSerializer.new(locations)
   end
 

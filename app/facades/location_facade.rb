@@ -10,4 +10,17 @@ class LocationFacade
     end
   end
 
+  #   def self.create_location(results)
+#     results[:results].map do |result|
+#       Location.new(
+#         id: meeting_id[:id].to_i,
+#         place_id: result[:place_id],
+#         name: result[:name],
+# #        address:
+#         rating: result[:rating],
+#         price_range: result[:price_level]
+#       )
+#     end
+#   end
+
 end

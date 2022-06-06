@@ -1,6 +1,5 @@
 class Api::V1::SearchController < ApplicationController
   def index
-    category = search_params[:category]
     midpoint_coords = MidpointFacade.find_midpoint(search_params[:address_1], search_params[:address_2])
     locations = LocationFacade.get_near_by_locations(midpoint_coords, search_params[:category])[0..4]
 

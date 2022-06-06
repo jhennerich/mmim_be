@@ -8,6 +8,7 @@ class LocationFacade
     location_results[:results].map do |location_result|
       LocationResponse.new(location_result)
     end
+
   end
 
 #   def self.create_location(results)

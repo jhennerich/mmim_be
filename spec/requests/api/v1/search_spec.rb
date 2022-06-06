@@ -5,6 +5,7 @@ RSpec.describe 'The search API' do
 #  VCR.insert_cassette('translates_a_street')
 #end
   it 'midpoints search', :vcr do
+    VCR.insert_cassette('The_search_API/midpoints_search', :record => :new_episodes)
 
     params = {
       address_1: '1583 Newton St Denver CO',

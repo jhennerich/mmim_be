@@ -80,4 +80,3 @@ VCR.configure do |config|
   config.filter_sensitive_data("google_api_key") { ENV['google_api_key'] }
 #  config.default_cassette_options = {re_record_interval: 1.day}
 end
-VCR.insert_cassette('The_search_API/midpoints_search', :record => :new_episodes)

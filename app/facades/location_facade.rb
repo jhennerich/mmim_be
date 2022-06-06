@@ -3,15 +3,14 @@ class LocationFacade
     GoogleMapApiService.new
   end
 
-  def self.get_near_by_locations(midpoint_attributes)
-    location_results = service.nearbysearch(midpoint_attributes)
+  def self.get_near_by_locations(mid_coord, category)
+    location_results = service.nearbysearch("location=#{mid_coord}&type=#{category}&radius=1500")
     location_results[:results].map do |location_result|
       LocationResponse.new(location_result)
     end
-
   end
 
-#   def self.create_location(results)
+  #   def self.create_location(results)
 #     results[:results].map do |result|
 #       Location.new(
 #         id: meeting_id[:id].to_i,
@@ -24,7 +23,4 @@ class LocationFacade
 #     end
 #   end
 
-  def self.create_midpoint
-    #TODO logic to create midpoint locaion between 2 given locations
-  end
 end

@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 06 Jun 2022 05:42:23 GMT
+      - Mon, 06 Jun 2022 16:57:56 GMT
       Pragma:
       - no-cache
       Expires:
@@ -41,7 +41,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=105
+      - gfet4t7; dur=46
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -134,7 +134,7 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 06 Jun 2022 05:42:23 GMT
+  recorded_at: Mon, 06 Jun 2022 16:57:56 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/geocode/json?address=2300%20Steele%20St%20Denver%20CO&key=google_api_key
@@ -156,7 +156,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 06 Jun 2022 05:42:23 GMT
+      - Mon, 06 Jun 2022 16:57:57 GMT
       Pragma:
       - no-cache
       Expires:
@@ -176,7 +176,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=103
+      - gfet4t7; dur=30
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -259,7 +259,7 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 06 Jun 2022 05:42:23 GMT
+  recorded_at: Mon, 06 Jun 2022 16:57:57 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=google_api_key&location=39.74574405,-104.99464955&radius=1500&type=cafe
@@ -281,9 +281,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 06 Jun 2022 05:42:23 GMT
+      - Mon, 06 Jun 2022 16:57:57 GMT
       Expires:
-      - Mon, 06 Jun 2022 05:47:23 GMT
+      - Mon, 06 Jun 2022 17:02:57 GMT
       Cache-Control:
       - public, max-age=300
       Vary:
@@ -291,13 +291,13 @@ http_interactions:
       Server:
       - scaffolding on HTTPServer2
       Content-Length:
-      - '6981'
+      - '6961'
       X-Xss-Protection:
       - '0'
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=137
+      - gfet4t7; dur=155
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -306,7 +306,7 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "next_page_token" : "Aap_uECY8w4y689fyj99Ntyt2gPBRTCcgFgZDOM4RmmV-xThkSlGq56JAqOo7J11iTt7GBiJ_41iQ78mx1jk_I9Gh3jwMDLnUt8xJ9nCCdcmC1gUZi0rxf20ppP_tK_5iV8ekFoH2Jzg2Jb8iYeE7uJI22yxXn-KjUQE1VZ0p6DymLXbeeeyjaBiJlGiDrMVP2Mx9a7iNVK0R0o_OqC1pABo0EbWHZODUsAHRkixLQb2IxTfflPQSP8LEjfub6ytUrDR91X4BfCnRCHpO73cZqGWfClXwvtYeyy33o0OKAVGQccYHUyTGVjXu7WMIf6PmBBrl3S5vgVjY8EYeNH4vp_FjAZd4pLvhch326A6LE65GPGnDWlIwg2GzpnaS1l5d3W7WboYRKXaj-UmmD61Vk4is9m5ph6PKCV3c61lUjG8nQewTOaz6S9Z",
+           "next_page_token" : "Aap_uEDIFOIhQUYyBWfoddybd9_UetlCQXm5fY0to0J8ENJbQ-2LheA2XpZDqdTovHROfxpm_plNTRG3psFUYPj6KY8Nk8DYLG0UXERw88P4CN0hM45_YzNE_Rg_aYQttJlaeW9l6bpdbO9dvCQsaJ6E2KhVkOqihxenKyIhqnZHlSQjbySRV4m238LQhN67LwfhuU15dl-JrOOpK2-2-ykejMK-3lXQL3QjD0PVT9h8PZ44YSxnFE-n_63eRFr35WONdNkRq07mFxErBP2K-IJlcNThU1jnKBQIiO06-IanVDStmkSNy1MJ6xOj1bLlpbA1eQot10zJkCXBzVnQcV0l42BkimmxVAZmG3stumfh_8ZZwzWXGVDoCM5bhvH6HUu1DjknU05wSfJwUDsixzIf1JoAsl_2mtzVvofpWQbwazqivxLW6LUv",
            "results" : [
               {
                  "business_status" : "OPERATIONAL",
@@ -331,7 +331,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
                  "name" : "Mercury Cafe",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -339,7 +339,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117715928410483899214\"\u003eShelley Seale\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEB7qjFA33RP0wwfsmXEudMm9Ucelx3_BRNMuTjNrpIK_eQaeKnJWPkFckWLQYl45GgkvdknUwA2AlT7GEiH4geC8CbQxay69HdNG8Z_Bwa2WW3fiixTppvQ5rtwAGELovlSzTW4PBi8GsKGfM6NlS_EjDPQlgEX1KfUp971aCE2qhj8",
+                       "photo_reference" : "Aap_uEC8a1FCLUql8GO6OHRNU3LmGin9APfqYp15SBqWIOEtGPEAbckXdWOt3pqbGCRb0Z40s-Xc13LLhWwkArpvPTK7vr4R6fHQoQ506YnoA2bZD2EJNQ_2UdyFbz7Og7Y5rs9qvPJRXHubt2sN9dtIaPOd9vldmuaT89aaczPTU8UL1sw4",
                        "width" : 1440
                     }
                  ],
@@ -360,7 +360,7 @@ http_interactions:
                     "point_of_interest",
                     "establishment"
                  ],
-                 "user_ratings_total" : 1664,
+                 "user_ratings_total" : 1666,
                  "vicinity" : "2199 California Street, Denver"
               },
               {
@@ -394,7 +394,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111459726925022097821\"\u003eCity O&#39; City\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEAq9aPv7kT80dF2gbxpJidKO81TR0KKLafAEyc68J260OV29hBbpNyHFAZHWCzXOVXnDEtnhLTel2Vqvu9ZRGCPMIbb9Z37e4zJvWqHAYgH3L9KL7QIVD4NCOquSzfBC7fj5ZPPozCxn1zoetMoKmfBmctYmCHcJ0PM6rqtNsYbCBsD",
+                       "photo_reference" : "Aap_uEDwRt4Wq5Uh2X4lm9pkOCMsQ-7j4axSc_jMk3ebuTvrgDDg5v0YCfqXdi-LZOulkf8Jbpnunm6WozR05obTutfifzpPFmibgCK98iaUoMzlrIpe8c5D_ocH5KMqoRX4CFdjld6QkIhpO7nJaZ8Rehcq-6R8VOPifutML4I-tldxg0SL",
                        "width" : 1280
                     }
                  ],
@@ -409,9 +409,9 @@ http_interactions:
                  "scope" : "GOOGLE",
                  "types" : [
                     "bar",
+                    "bakery",
                     "cafe",
                     "restaurant",
-                    "bakery",
                     "food",
                     "store",
                     "point_of_interest",
@@ -451,7 +451,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/110607988110136142067\"\u003eD Bar Denver\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDk8g8EaLhB9a3VK0_2VfVBQXlUpvr0T-MY7pPCmVn86qk9KrjVaBvJfQtM73Y_8upHTAhOQqzlxLEIdY76XQF07sfPMIja3UP_YFIVu-islxTRx-7EwZ06xqhueoAU4IlPHb9ExkuNRqiIgp9FAt7ym_jCClz19HQ_NUm5QTH-3-h2",
+                       "photo_reference" : "Aap_uEC4z9oS5XgyH15aaAdqdF-2Tcu1gqC27_P6SV2Xuo7LvabloIekqiWsLSvxTyX66EA-pwGCpxkrLylJEg7BKq29wCnPVLWjL3ujQVIJn3-Nd0HVM8Kg5xRKezdwOwOoFG8YEvlrYEwsLLTaUKfy3ChtL9ZiANjqw3uxY7lUPZsV5Z7L",
                        "width" : 4912
                     }
                  ],
@@ -466,15 +466,15 @@ http_interactions:
                  "scope" : "GOOGLE",
                  "types" : [
                     "bar",
+                    "bakery",
                     "cafe",
                     "restaurant",
-                    "bakery",
                     "food",
                     "store",
                     "point_of_interest",
                     "establishment"
                  ],
-                 "user_ratings_total" : 950,
+                 "user_ratings_total" : 951,
                  "vicinity" : "494 East 19th Avenue, Denver"
               },
               {
@@ -500,7 +500,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
                  "name" : "The Delectable Egg",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -508,7 +508,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/115498716304628993647\"\u003eJosh Lower\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEAgzH5KYc2-7PsGJkXL36sUjVaBOFifzxm77u2QOkEmlYG9jS2c6zjNzZu7e73-mH8H_aDjhVHQDntCYiqE_d7zuZnUmWLSVtUHrHQt_FnT0MLAnDCbUhIMQRH81d8KxVjx3gotU-XAl4MbPfXLwQfLtzZFuxXytRK3CGmGB_CxZ_ut",
+                       "photo_reference" : "Aap_uECGkpGSwYuugnT-lDUcKtC0CL__R3B8LiIsPsAgXrZcOXv-yc9Y8MxyhwTN6A25SZUihZjyneMtVqoaymz4maFID9-Avlr3va4cFbY5ZfeNRXxaDIRCRQVSKBRovHKQIX7VpQvOjV-dNzWwb1ixxHVUCX4W6p8UpAwqCQpR0wAoDAZ3",
                        "width" : 3024
                     }
                  ],
@@ -555,7 +555,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
                  "name" : "McDonald's",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -563,7 +563,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/118082248383104632865\"\u003eK H\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBEi8e7svRDxar4PEJ4Wj2sbmPGhXK6T_X4XkvYoD--5L2g_plXPxBAwuiYGUEQ-mRNCoBXMo04-av8eHEQHysmKbd4nrQ31BksOYE0KRm-5qLhBaKEGp2JLFn03oVkhdkw-grfamDJYwBsDzGYV2drtazOrCz5f3XG5HrUYdTm5qxF",
+                       "photo_reference" : "Aap_uEDhfkWKZmk7GJLwhFQKw99khSQSYYOx_UTM1tIK40elTvUB_zHCzNZNGijp3ffXpnuf4uBpvXNG92Us4Y6G9bhNN3VYd1NnTEPmXz4soi_DNfxoWeqYUF2jOEb7dque_6iSz2zl6X36HsnKSEwqh92fc48wp-Y4NNK9jNL7IrfwYVKg",
                        "width" : 4032
                     }
                  ],
@@ -610,7 +610,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Fluid Coffee Bar",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -618,7 +618,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117683279927442160425\"\u003eKim E\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBhdFtcMKKYtqSu5dEXaEQMFHtgK0IEV5AW7wjom3hnHlc7sqwMQLQq5gvlpvFT9J8JPSB64WmKC5xLtmUKhDbS-WHSXSVZGX9QfWLXYrCnTU9Wdis3M6T1mpBmQQdQ-otkdBYIXhJnMEagafvDR87F0YVmHKwe9XOMJfv3Yn_1GuNw",
+                       "photo_reference" : "Aap_uEB7DtCFpY-8JKHoK5GscAJmoNKkMt6JTP5VKPUfRfR5lY5BV7cfwB0rU22aQLjyWO4gfX3YiJHwK4kxbKuK04cho9LCsn3sNfvmyX-2pP1WrieFU1UuZ-f7qjbsboXEzBPo8kt-B-H4tf1iNS_SlrOeXOKUbPTWTjVbQA2pdc89AI5E",
                        "width" : 3024
                     }
                  ],
@@ -658,7 +658,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Little Owl Coffee",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -666,7 +666,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107041036435983271956\"\u003eLittle Owl Coffee\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBJTqIGc4W7bP_BzlSmjNHzs2jaDLQDIVWlEarH1FdeoCN4pqEsgLOgtQqBwM6yHTsBJXLAPAUDCE7ZjzyWq0Leh_CLp6j3wO9AJ6AnP6lNN2x3i4V69_N4b9QjzGdsAb_NiMP4BOzTGpzDQ9w6jV9MTmd1YCy2mlphq06GPHtwCF3f",
+                       "photo_reference" : "Aap_uEDG0l2GXhnUgiLKRe_J59-v_4_NusLWA0gnqrwnDUM3J86UQRDMOqrfQz-tH3L_eaE4Iq_PmyPFT1HTzQ_6k4LwmDUL6TdazIzb8XLNSzawHDvIAJ-mf5bsGTjFA9bTsU06g8K06RbdWddZt-xvOgdjCH9sn5-IGFTwAIHpxfq3W49h",
                        "width" : 1000
                     }
                  ],
@@ -706,7 +706,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Starbucks",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -714,7 +714,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/118401636883222848340\"\u003eSarah Weedin\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBrKIsxCQIETSNz_VVxaZA5PRCqGyOo10dNucRfkUhAfSRcLWO9zv8DlTOxX2tslS4s-21k7a4Gnd6ADmjnNl1l_TspUsxH6Tj_6MAO88_TlFhekYpwWbBwEf3gdAXXWCdD1YYsqcvJ3jaN4AELDWa3VmGYVVlYYVeNQ3s4l-qqLGZF",
+                       "photo_reference" : "Aap_uECr4J_r384hhgx2qDq8MWCcOPeRcvXqGTf9W-g7BH9rQkFbABS8HJ4LWJBV-UFnB7VFOnYou6z8MRMFw1FOEoypftheNGb-j9mAMrCZKMAaxUI5yGDn8aFaKkT_2bQuUPsHFPdNN1GqlGHsMwilu6ER06vV-BuMgNYBRyIR7nR1YCKW",
                        "width" : 9248
                     }
                  ],
@@ -760,7 +760,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/100291785389838647487\"\u003eJ\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDCifTi_GiLR1i88tx8CjCnLo06j_HctkvhIm0spDc5_4YrS9SyYrROhtLz5Q7SP8AnGVo7xZm9nIZ1WTLgPn_QLFGtqEyJFrtYspLGE3AwnoUX1KJNO323la5aXufKCzHHMjrUsavnPpXQ_r-Jlm5jb3AtileaQP2xImp8kuCb2Tzb",
+                       "photo_reference" : "Aap_uECFUaQwApBtyeuZ_3iU94xqlQrGyNICyfqbejjhNzCPdKx1XGDJ9Vwy4Nb4XM0Rf3WI3FN3oQxSnvB08_jLXedYOEH2dFWOgKumpIAprDTmKXe-t8Sy3Y6fuHEoCSetpwO7Yea3NLNyclVAHoErSvH4bkBJDTZHFQ_oRuUPKa4G1qgL",
                        "width" : 3024
                     }
                  ],
@@ -774,9 +774,9 @@ http_interactions:
                  "reference" : "ChIJ9Ud11dB4bIcRCcricPkwryo",
                  "scope" : "GOOGLE",
                  "types" : [
+                    "bakery",
                     "cafe",
                     "restaurant",
-                    "bakery",
                     "food",
                     "store",
                     "point_of_interest",
@@ -808,7 +808,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "ink Coffee Tabor",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -816,7 +816,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107802992226824540736\"\u003eink Coffee Tabor\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEC5OstMXa_xflMp8DInBU4Vp7cewW1xg2pn_1AHjXRkhd-KUTyK9PiLaAYjkaoQmikTkwscZdqedzFISkqYk_QftXVDNqnGxo-zqpZGPLz16iZ4jvnvp2eyPczOvtD5Lmh0Zx6GYxO1Pf7WE3wuN_ytzUUNWn2EeEUy_8E1ZrSD0EG3",
+                       "photo_reference" : "Aap_uEBeF9mb16MgW_IASa8UbuXwJ5im0U7RiHLh0y0dvXczcx16JECGqI_TgcUf3GEc4g9K9FUsZNMm-wrz6nhRyZzXo4B8uqloEkG3XSww4_sbtlRZ_To4Py_qo9Zj1xSfPdI36DGKpB8aXSB0dCApS7jRuRvGBdoW70wJO190R2lTB5MN",
                        "width" : 1125
                     }
                  ],
@@ -855,7 +855,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Novo Coffee",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -863,7 +863,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107373603922332025156\"\u003eLily Chang\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBKSRs3bvEGwMSPfk29U_MBIO6nNfvPs-6ZHBEm8WvK1qDCPye1zU4kmyAMLPZ40yaEUAnQEEAlOmBOp8wJQmYcjJd5R7XdQQaXq05jeL6Xqzt9VqnGa7MUUJzwwmsQASigPobqyUzauLsEaROlJIZNJWBruy_nr_2TSJamwCupGrs",
+                       "photo_reference" : "Aap_uEDl7a0fAMfJHajQ-qoi82z0CihlL8FB2uUgj5itnugL1LanFEJuIi4wWv2d42OZ7lm1eUfgMamwLHfJvHA6LLkOQT8qbdwusohOMvWhJWgr_OeH6oyymutxHWhSTVqdmi1kCyUDq3CYj3UUQYcG-LXGjpWN1EQUCfCVPhPRorxsaos",
                        "width" : 3024
                     }
                  ],
@@ -903,7 +903,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
                  "name" : "The Alliance Center",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -911,7 +911,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/109959689975747448682\"\u003eThe Alliance Center\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDeUJ2RkfDkvWgTjaCA1ZP-_XrHGx4D_KeYqLWz6TSxyMoywPuBYBlIW2BTrlohnSKr3EPH8nW9pkzb_FVGQGnIUQpQacNL5uuxRYpBWE1DgwUThHzij4hnP-O0NU_geRskwoDcoSoE0U4fDjzZScf13JX4vGn7j013ktwAVbGTo0He",
+                       "photo_reference" : "Aap_uEB4BVDR-zJ2BVckm0GtulM6Rka7GI0olCMBkg8jqowxEp6Gg_LF3b9PnkSuxLHxuSqUPv-eQy-_iinoTvicDLKPuV9ROMUWRrKnU6WDDTaLnwibeAFKDmE8opdbIH952Q3tOQ8-AqW9XMvbTWVVSPNAwQXHFS7zC2eo_PnxqYZKiGbq",
                        "width" : 5616
                     }
                  ],
@@ -950,7 +950,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Starbucks",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -958,7 +958,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/105242518271508205960\"\u003eKeith Tomline\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBfc3AUZi9v9HL7Gdg1KvbgF0IUBw_dQBkFmlA4PqcnPjxB_j3P_6sXJwqCqU9ljEsSaTjzKySJwaS-Adia_VwNSvQqEqpFNjZEsgnf0AIY_RQEFTsnR9WmiPXkidx6GmR4dCigfjteltDbhU2HOeW6rXVcsddyt_6qWHxPYY7kV7I-",
+                       "photo_reference" : "Aap_uEBVOKzOET-7ISrpAhgMrKib8URcmZo89YE-6dtgPQrGhvfiMPXVmgu9jAiUJzWHNvNIaQlz4WLUpZnOIH-YGTxpf1uRgbhjP1rR38XxPI6p2kAsng9-sQjQrGogI9T5kSO4wAabPZgFQ9fmb2bxS1wbR2tGcARC33IeRheuXZdmmSx_",
                        "width" : 4032
                     }
                  ],
@@ -998,7 +998,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Starbucks",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -1006,7 +1006,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103614928946175991574\"\u003eGeorge Foster\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECqJdD0B7iWJXLAgKCBvTwXLom9YqBdbxUAnyZEhSh5s0R5TP-d5kWROGpe47Sm_VXEkakTD4xs0wlvKZIzNWO9dW0zUfN4-iWbWmi5DQ83ysppnGJKTCkoNHoLqHha7KOOrpzrUDsMnBHLUCjDP2u6VgOhKU4GeRVwuniv8JXkWkzi",
+                       "photo_reference" : "Aap_uEBKk0V2D2YFw6kU46KThGepfAJ58ZwipsCpspRGlRYdCyJXPc75Q6bpXPOeVFAf_2H183zPiej_vAHq3k791n5LHVNgFR4ZinGuhvNFneF4XY0ArO6el2kddXZQkSTwZ6AV6qpacm1ytUz4clw0gHbvsw8yn6_vaePukn8zjvhPVwsp",
                        "width" : 4032
                     }
                  ],
@@ -1052,7 +1052,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103865731934417906422\"\u003eBick Benedict\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECDdQrEPBDBYfYC-T0_Xm0MiQLicE4vzwnycpi0twqCkYHJ3iS2Ao4O3zhcIuvcI1yU4ZPXyKg-93PEThBrB9v-64rw_DmzH8tTk-1qeVpFzkAkQQ7rKOyRhpFXhgb1f0eM6OySiUJUb38xBMhtcCJdUmH2l8VDrJtwZWxb7CdONFCP",
+                       "photo_reference" : "Aap_uEBbwCw_LFhQFAeUw8XN6fv_OJKkkFBrAmtk_mFv5zE6H6VtQF65PFNdj_UF-5lZHiInpjZsPvQmm6ti34tu-4whjuY7GUYwUS4QWp5Lqvh99dMp-vWfITVs2nYN9HgahibHhWUXOfnK_KiPdwZTI0XNgdYRQcHxoqyjp8clCsJ08p84",
                        "width" : 2988
                     }
                  ],
@@ -1100,7 +1100,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Three Sisters Cafe & Catering",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -1108,7 +1108,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117711220499010239186\"\u003eTina Pino\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEA3LRrwQYKAeRUUKQ1wk8J9tign7v4HTPfLRrUwtsgNF7MbvYMj2dZOBCDuWssiGRrtUyeBF4gwdF8NodXx_eAABRV0MHQ-U6rqT0ShF3kXPMWzZs_Y0JJljdee_xfUS3Gbfvwov4zTky-xuw_gwMuLDgbvLgDwMtfFJZEvqDBWkctE",
+                       "photo_reference" : "Aap_uEAJYvETYo8YZQc630DJ7fKamLN4Mlp0TTHg7P6Uozy6PZBceesispMPvnZEi-nQjx3pOVRPaV-RISCojQVtHT5bf3GCUUQf4bidPkOhTxiyQvAGc6vw6GyMA-LhQLKpqUHx6QVhHXadqlPBVoJJ67rAxZbLLH3vY8Q2tO7kPubl_7St",
                        "width" : 2048
                     }
                  ],
@@ -1124,62 +1124,6 @@ http_interactions:
                  "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
                  "user_ratings_total" : 174,
                  "vicinity" : "1717 Stout Street, Denver"
-              },
-              {
-                 "business_status" : "OPERATIONAL",
-                 "geometry" : {
-                    "location" : {
-                       "lat" : 39.747058,
-                       "lng" : -104.9918532
-                    },
-                    "viewport" : {
-                       "northeast" : {
-                          "lat" : 39.74833613029149,
-                          "lng" : -104.9905713197085
-                       },
-                       "southwest" : {
-                          "lat" : 39.74563816970849,
-                          "lng" : -104.9932692802915
-                       }
-                    }
-                 },
-                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-                 "icon_background_color" : "#FF9E67",
-                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
-                 "name" : "Bruegger's Bagels",
-                 "opening_hours" : {
-                    "open_now" : false
-                 },
-                 "photos" : [
-                    {
-                       "height" : 4032,
-                       "html_attributions" : [
-                          "\u003ca href=\"https://maps.google.com/maps/contrib/105379789701475622852\"\u003eAryeh Landowne\u003c/a\u003e"
-                       ],
-                       "photo_reference" : "Aap_uEDZXMMQmEJVqdFG7MuHSiCe2OQnvT97z_M83AqMulkp-Eua8ziChruuGPd3U7C_5JZAiZN-eEq6h7oV-EvsMv1G3wWlU8QW9fzlpAUTSb8fnJknHv5-d2siVbjI3e1NFv6KWz8xLuxLDpSUtkUCzhGAzNn5kk9As9CzlaBzbE5DxdXM",
-                       "width" : 3024
-                    }
-                 ],
-                 "place_id" : "ChIJRQq8pdB4bIcR3hZb2A1SjIg",
-                 "plus_code" : {
-                    "compound_code" : "P2W5+R7 Denver, CO, USA",
-                    "global_code" : "85FQP2W5+R7"
-                 },
-                 "price_level" : 1,
-                 "rating" : 3.6,
-                 "reference" : "ChIJRQq8pdB4bIcR3hZb2A1SjIg",
-                 "scope" : "GOOGLE",
-                 "types" : [
-                    "cafe",
-                    "restaurant",
-                    "bakery",
-                    "food",
-                    "store",
-                    "point_of_interest",
-                    "establishment"
-                 ],
-                 "user_ratings_total" : 326,
-                 "vicinity" : "817 17th Street Bank Lofts Building, Denver"
               },
               {
                  "business_status" : "OPERATIONAL",
@@ -1204,7 +1148,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Intermission Cafe",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -1212,7 +1156,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107538160601433139539\"\u003eIntermission Cafe\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBJQJBc-iU4BEcPTGJofSY9QAPpDeUlRs6CVWDPEJgQYrZVb8pK0CY2diYJwFvEPpyXTtXlJRPnSlxDp9ClaDM4kkwsk4BBMxt5VL85iZp782pv8mUqFMwfp-Gj_v4H_U4mrNDomMOUdjIMqO8OQDRCWmQrVF7FCf1EOzyW2CBVbNcl",
+                       "photo_reference" : "Aap_uECtqohBWTsl4f6LrOnnNpP12Y6nv1fyyLuZ6VfG9cexX1ueTYJSdAdW4nEu_WfzNpZizR8NeWnB-uYU3GBnTcbBf4aando80d4ir9jmFnZQ_hZzgXLpihrKnaagd8x2eQMf7g1vbdGMJpLHhA4n2_CMqaYekfm8Xx363te941nTMIUZ",
                        "width" : 693
                     }
                  ],
@@ -1259,7 +1203,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/112503689357757765819\"\u003eAfternoon Tea at The Brown Palace\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDTFLjiq_cNRhnTF0ZNcWmMExRBnYOGY3nRozQnhri2o50yb4Z2hvtORQ6d7drPajYy6CXIKe9Veq4KgwqUlsYHM0uW-gATB7-uhjmL2iyTjxWFb1468U3dWIuIRYSF6SmBzFAcCJmUg8r_lGoitnD3JddjQCp_v6gOmemMSlaiQ3Vl",
+                       "photo_reference" : "Aap_uEAEQ6LBAMI9n78EpeOeMZ-hjJiPEUmQb38dxW2IvuWfZsot6OXsx16jL_0batEQI1WkqUewv6c3kJF_ZTO8zCd7aI66zhVma6iVNIL6nS8WUrLD8nHT7HtR2zbJT0HU8qpnyw10E-Jbg7T3z_p_M6o3xjhD4kbLx-xETBJ3HL19lr5h",
                        "width" : 2048
                     }
                  ],
@@ -1298,7 +1242,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Starbucks",
                  "opening_hours" : {
-                    "open_now" : false
+                    "open_now" : true
                  },
                  "photos" : [
                     {
@@ -1306,7 +1250,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107156547597850084304\"\u003eAnirudh Koul\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEA4pRIke0Men0l29zY1EVlE7q1Rx3r78FNv4R70k4uRBHnip0fFNjA_ly1bQGPG-iiyBsmfSK5zn2InQF8CInpw6Gb6uiTiojX4K_tV77v6Ll19IdkJkAm6FzWSS028LJ0zPJjXaM-X26IwY4d31j2QUtpvt9J6iR14hH1hbHKoEitM",
+                       "photo_reference" : "Aap_uECE97HHcX_c5nO5F17UsUxcphmbO1EBDf8iBD3jbMDpi2z_v3g3iYUm6k1F4n5uvvox2HUUdo17Eh9L_CimeTqjhJmClejYPvXiXFEZ7QKR4tudyCUzscLp9jWXup71lR4d3jd_U9QQVu55OfIHVn4ynsT_QOr5lDY1MxA9M3XnAIC-",
                        "width" : 4032
                     }
                  ],
@@ -1322,9 +1266,64 @@ http_interactions:
                  "types" : [ "cafe", "food", "store", "point_of_interest", "establishment" ],
                  "user_ratings_total" : 313,
                  "vicinity" : "934 16th Street Mall, Denver"
+              },
+              {
+                 "business_status" : "OPERATIONAL",
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 39.73964369999999,
+                       "lng" : -105.0046494
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 39.74105998029149,
+                          "lng" : -105.0031559197085
+                       },
+                       "southwest" : {
+                          "lat" : 39.7383620197085,
+                          "lng" : -105.0058538802915
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+                 "icon_background_color" : "#FF9E67",
+                 "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+                 "name" : "McDonald's",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 468,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117054556390643971643\"\u003eMark Pabst\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "Aap_uEAsHr5i8xWWHkmvW4P3GsWT-jiNWqtSy47hGw1FxKN0FDzkdgC18tTiyjfHPHHCaxm6dA7TAYDNW-ZnhAzYVbjD0OSnhkTpkR22ldb70yi2obW2L5rIqWGpH-zEl_tj6-xwYOlARLfCDrkTO-fAF1v5l__aZtRtRWxxIrxxspOpchlp",
+                       "width" : 949
+                    }
+                 ],
+                 "place_id" : "ChIJbUb6v8t4bIcR2TIsfW6490A",
+                 "plus_code" : {
+                    "compound_code" : "PXQW+V4 Denver, CO, USA",
+                    "global_code" : "85FPPXQW+V4"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.3,
+                 "reference" : "ChIJbUb6v8t4bIcR2TIsfW6490A",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "cafe",
+                    "restaurant",
+                    "food",
+                    "store",
+                    "point_of_interest",
+                    "establishment"
+                 ],
+                 "user_ratings_total" : 2675,
+                 "vicinity" : "1350 West Colfax Avenue, Denver"
               }
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 06 Jun 2022 05:42:23 GMT
+  recorded_at: Mon, 06 Jun 2022 16:57:57 GMT
 recorded_with: VCR 6.1.0

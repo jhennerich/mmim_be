@@ -11,10 +11,8 @@ RSpec.describe 'The search API' do
       address_2: '2300 Steele St Denver CO',
       category: 'cafe'
     }.to_json
-
     get "/api/v1/search", params: { params: params }
 
-    
-
+    binding.pry
   end
 end

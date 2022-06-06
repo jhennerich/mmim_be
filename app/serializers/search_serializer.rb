@@ -1,4 +1,4 @@
-class MidpointSerializer
+class SearchSerializer
   include JSONAPI::Serializer
   attributes :lat,
              :lng

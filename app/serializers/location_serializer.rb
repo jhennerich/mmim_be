@@ -1,6 +1,7 @@
 class LocationSerializer
   include JSONAPI::Serializer
-  attributes :name,
+  attributes :id,
+             :name,
              :place_id,
              :address,
              :lat,

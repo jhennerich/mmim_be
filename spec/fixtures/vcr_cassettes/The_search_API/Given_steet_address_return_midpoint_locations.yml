@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 06 Jun 2022 00:35:00 GMT
+      - Mon, 06 Jun 2022 01:30:09 GMT
       Pragma:
       - no-cache
       Expires:
@@ -41,7 +41,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=157
+      - gfet4t7; dur=92
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -134,7 +134,7 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 06 Jun 2022 00:35:00 GMT
+  recorded_at: Mon, 06 Jun 2022 01:30:09 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/geocode/json?address=2300%20Steele%20St%20Denver%20CO&key=google_api_key
@@ -156,7 +156,7 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 06 Jun 2022 00:35:00 GMT
+      - Mon, 06 Jun 2022 01:30:09 GMT
       Pragma:
       - no-cache
       Expires:
@@ -176,7 +176,7 @@ http_interactions:
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=138
+      - gfet4t7; dur=133
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -259,7 +259,7 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 06 Jun 2022 00:35:00 GMT
+  recorded_at: Mon, 06 Jun 2022 01:30:09 GMT
 - request:
     method: get
     uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=google_api_key&location=39.74574405,-104.99464955&radius=1500&type=cafe
@@ -281,9 +281,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 06 Jun 2022 00:35:01 GMT
+      - Mon, 06 Jun 2022 01:30:10 GMT
       Expires:
-      - Mon, 06 Jun 2022 00:40:01 GMT
+      - Mon, 06 Jun 2022 01:35:10 GMT
       Cache-Control:
       - public, max-age=300
       Vary:
@@ -291,13 +291,13 @@ http_interactions:
       Server:
       - scaffolding on HTTPServer2
       Content-Length:
-      - '6968'
+      - '6960'
       X-Xss-Protection:
       - '0'
       X-Frame-Options:
       - SAMEORIGIN
       Server-Timing:
-      - gfet4t7; dur=197
+      - gfet4t7; dur=161
       Alt-Svc:
       - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443";
         ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
@@ -306,7 +306,7 @@ http_interactions:
       string: |
         {
            "html_attributions" : [],
-           "next_page_token" : "Aap_uEB5s8TUlMhmZM0eWPqcz9JajsoAf3bghR8tYoocv0qJr-ajr5KsLmFHAWSdkc25PQ8KTLkiSONEy-89GI7tNj2KsE9kRykGF_dnDO_rRkmblPdDslQgppbyLfGAAOeVv3Z_fahBTFJB5pIUFxsvjeiKc1hkTKnZ8PnQJcdxPcu1abvA6ajKRsa2k1ILTL2sMp-VZxu3TZ_n6AuwKUkCGzsveVEpL_qMrx_R1mZzMiP20VgV74L58N6KCOIw6YrvA2gxyECxv8JWOD6URDn4klsfsCt1fM-kc2uRzFmCnx0xmcs5kQSHhoVWHkWfKQnLonzV3uUOPrG59dGHSEgV49vSDXaBXmU9YvDIV7mxvxATTudrBLQC1oSM5nvDmaRxdvKHjxhWybl4qo4TTuIC8Y9B2dXRNZAoRTIi54whWRr6KMygtgUI",
+           "next_page_token" : "Aap_uEBwkdIxmbkSIO0Zb-FEFACy7f13s0jB3na3QI0TPQdZk0mUt-Ch23A3-fmFu7OC6L6HgHtTaLh58LV1_in4iDUkWgu1pUWUrjAhqT8qqYN0aG8kNYAh05WT4Ew3ZX6gS3To52t1wcFRk6uo-cbgRcxrbF81I5sJdVBgA5wsKR2CXPBFA2zXaoqLD90jWxmMaq8L6joEiqFigaJzen3CbhbXnueT3NfubK3G0bthijSBKuL63ZOhfXDETbdTM02oeGyDNbK8VZwz5y-zU6XEr-_cOUoWIbw4_bMC7VEhq3L7EucnYMQUNU6Ly90fvFky4n0Hh-HPMfkeSbJb3BcUM8ps-pia3fuwAeqEdITdcGvHyYYtgjR4iJbYkBpwFYO-Xhl4KEUF_h2v_Pj-tcOrlxarPbeOvQ8spexuwMMm2Skn-bYCtrxf",
            "results" : [
               {
                  "business_status" : "OPERATIONAL",
@@ -339,7 +339,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117715928410483899214\"\u003eShelley Seale\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDf-B2qLhOkmMhTEJHOHQLcR0fGxycc9bsvimhF_GJJar0iobuz_iEmReFjT_1FyrTtUnA1jXQJfxUqorr9VTt2P53XRnSrgCEn10LfMl10sBZ_Eq71_q4b2QhtPlFugsiBR0ro7l6UhZaQ91545k7HDp3u5XTihKsMIc0NahepazRy",
+                       "photo_reference" : "Aap_uEDLNYREB_x4GsLgiGHslAirYJI2-PAusABR4VTkl9Y_pDidNU5Zs-VyBBsMEUWxElcQ-Hx0sceFPNdkpPGhw-bQZW7PAhO2Vz6M-KIbMSbDeU24SyIs0qqAVAXLOL-Og3qyAG12skKY_fOBMkeyMNIHKVIMji7F4TkxHUf8he-9jqHq",
                        "width" : 1440
                     }
                  ],
@@ -394,7 +394,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/111459726925022097821\"\u003eCity O&#39; City\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEB4HDDgGzACWXXD6-fezrcOdlivD-trcXz1ErVslXgeBk03z1zFOarPbS-Lb5NcqPtsj-ijkysZa4YLNj57Ngo4xILAB7sQY6hWs2wi4obXuvMXddujv6nOnOgpV1AYp2cmG9fRr60rU2WYxb10s6yA0-nsW_N8F9ppBa2T0fusKC-T",
+                       "photo_reference" : "Aap_uEC5bkIOJVDEkVc030mQ1DUxb29EWQd4Mx8Tdy9zK99GxAgx3N-MA8Mhp-bpx1wwCpFMRMZlESLVfWMQXIQQ35eBd47T2kl_K06_xT8cYLqYfwwOo4XFNy23MDb7JvCgOeHsj2-fvakqZCTQaxUHU60nP9UwcUuP7fzSOEAa9Eq126Rv",
                        "width" : 1280
                     }
                  ],
@@ -410,9 +410,9 @@ http_interactions:
                  "types" : [
                     "bakery",
                     "cafe",
-                    "bar",
                     "restaurant",
                     "food",
+                    "bar",
                     "point_of_interest",
                     "store",
                     "establishment"
@@ -451,7 +451,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/110607988110136142067\"\u003eD Bar Denver\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECmgoa7toRLyN-ATX7ZwvR_naTK7u3_HBEazcdL5pPBNvvdOA07FBn3gEa7WkazOBJDkXdBCXmDi6BX3k-t9I_lbbI6CKLA-ETe1xsvZUT7zGco1nAqtqXDXzEFYyWt7gAgFEA_sZeuwdGo47gLyMOlDWXF-BneQTWf6z0FbZPjL1aO",
+                       "photo_reference" : "Aap_uEAcQl7FLr97RZ4nHpz446djVaM2HoF20C0xyHPdhA0KeBKfmJ5pHXHnmKupmhniVPaxjx06P1VJmTk2nEQPW3TB6hPpVOhVYA3bvfdbxNsRU7qlug6YhrjC6i-rjPK3f1r73aVQIxT42Z7ibYf-aIa-1jMGu6cYggqqzbpUQWmgXlPK",
                        "width" : 4912
                     }
                  ],
@@ -467,9 +467,9 @@ http_interactions:
                  "types" : [
                     "bakery",
                     "cafe",
-                    "bar",
                     "restaurant",
                     "food",
+                    "bar",
                     "point_of_interest",
                     "store",
                     "establishment"
@@ -508,7 +508,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/115498716304628993647\"\u003eJosh Lower\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDJ_osvOFRlZlYbAM5tfbr-SqSOvBRq5wDuCk57pNdDX_8G3hDkexnZmGI-66yowuv6YMNjgbySQ-Pvx2A4_yS6cfDQsbEDXc5-j2z6oa5g4Xazi02mOIEqWQHS-dhD2MTeAHpS-DvMAtzLrn0DLRxi76TtoZ9p_HkBNaZCvnhfldej",
+                       "photo_reference" : "Aap_uEAGA6qJSzwSdOLFqPC9J7o_5nhvJGbwVBm8enBiZg4T3TPMx7v6Dv0at6qXvlkRtGv8eUN9AiUn6-DFSp-UhIdyKk6k0UvR9Q8YPanH2oyv_ffq0fpbuEPJVeoqxVxR67VTkywacctvKsbLsLgkrpOOiMNcR6xbMGKKVDKnVQwswHa4",
                        "width" : 3024
                     }
                  ],
@@ -563,7 +563,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/118082248383104632865\"\u003eK H\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEAw4_A7g0yRRRsD7mFuvZ0xcfbwozPxCHwlO4jpkYr-6-6TeAg18Z0h7d2ewEFumNdqVNNQ7bYxDrsYjTGbVBWN4MYdAPCpwYu7TbQGkXmI5YEWOju2j9wjObak8fyQcfErKPDcPirKaK0vEBm4DK3gmKHDV79k0FSqf_YQetNXF4qs",
+                       "photo_reference" : "Aap_uEAeft0D8WMPd-E89yfnMI4vH7u0vn9uy_mENuRuosbtfl0ZMNJVbyP2p52K_8kBKtSH5Lj4JsRxv2g9AD68MnxAzfFRhmT5LIffECghA9qMG2WKAaHOzJ_yxBbnW7LREG6FqUhULshrgfkURP3Xs1M2n5oyXL0BwgYRWexI5oMDba8h",
                        "width" : 4032
                     }
                  ],
@@ -618,7 +618,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117683279927442160425\"\u003eKim E\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDUJ_69tbg0UeR45i3EpRTjST2Yi_hX1cGjvmilhM-q21dMxXYqq_X0EWDT_uqe_muestb97ei_ms_qk4xxZeTUkX4_FugOZM6-hUAJlJDYy_ZREW1EkBzJZFP8FRgmpyooyctf3I6l6KLIIT1bTwe6bJiNd-8eghu__H3VVfLjO4in",
+                       "photo_reference" : "Aap_uEAkIhoZxfJs18QqPezS0vb2OUunyYFH5Ar5Br1aRSkQYVU4QpMY9I--Iyl43qk68IgsRZ3sjDZZBy_PT6K2Trp262la5wWqD9HBw2SYeel36NWRvoN8DJlmANb7-jvtEmy28QvWzTzfRqQ8Nzmc8CC1R2xpb70B7MlDGMJROvf-EcZY",
                        "width" : 3024
                     }
                  ],
@@ -666,7 +666,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107041036435983271956\"\u003eLittle Owl Coffee\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEAcwa8nyMuaLy2jpmwkftYXzTR26p-FsowFv4LgY-sxxM5DrEHHDc5j_j-YIubZ8yi-BWthimCb3PF7XTSKipTbauxqvPHF68oAQvLmGGzaMYDYXH7v_u35z1Jpdyoc3tJz1EQxwM_GKDY25HgHAOkCDVCJil0AN_OdKkh9IcbbnPcr",
+                       "photo_reference" : "Aap_uEC6WSXuSNenecfTG7w8iYygQZoyDonAmZHoRd6ScdQJbA9A1WF7jQvQbB_VziPiA_Gp7CXAYKxr4AsGbSSaXe9l69uMOw5RzN3n2tMzKQC48uEcIDelp5Oum0zxEzhdloXiUR9rm0V1ahRgGjUighCqf8SG-hS0sVR9MsnMvHbUdGXq",
                        "width" : 1000
                     }
                  ],
@@ -714,7 +714,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/118401636883222848340\"\u003eSarah Weedin\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEApgoc61XlXrW4k-4kLVnBSPql0YhRCxUaW6pzK1xLomfyRr-ZGSHXtD4N8j0xKA0_ufm0wu1wz5of8tVdWLL_Qr2ATe1v4b1nvqtz6tTuQPtFTfTu7PkwVZgRiYptBDckaRTd42eqYyQAyYKOsECk2VIm6TNMBOfSBBOnijksxCw_E",
+                       "photo_reference" : "Aap_uECkcafxFPajpaR__sfNyjk_G2rhbmOVnL4vTpdifuvSI645aNuIEBZSVtHSc5A5LXV4ZosifOb82oIWIDSWzIX64A-Tra7ehM3YW6BgGPEbS9HW0JR3CXc-l3MFXc3JRGtn-vD1TdjAUzk2xT7Td-A_6sSnIfDTbQEu0XYPZUeA57g_",
                        "width" : 9248
                     }
                  ],
@@ -760,7 +760,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/100291785389838647487\"\u003eJ\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECJGVQY0Xvv-GEbjnTuGxc1x3A5SppTK_ajdRl-2Fu_lVrJqSG8bflBx0Iz9noRNo3114QZtf76Eh81EeCQlA8GQVotD6mUksAhnWNsvZx9wsACdwtNqGnPNvzM2fgKgnWrCD-W_YN2JkFY1jLSWAtOLIFw7O1jwa5h7CulvmWL1qBn",
+                       "photo_reference" : "Aap_uECiSctTAmXzxxSshY1rnmV_3cD-Sf_1lrR2Jv1A4s796ofUJ2eFQuLthGyFY1UaJij0Eh7iYQmcXncmOqhgmPG0-8AU6km8w0qozvZ8wA9q1bZaB3NfXiQs_F36d00MB-cQDxwRoULW3G_16kGx9z0KYJOSAZscJowvKH9TQ6_ZnqN3",
                        "width" : 3024
                     }
                  ],
@@ -816,7 +816,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107802992226824540736\"\u003eink Coffee Tabor\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBPCxr5e8sJgfAqf63QGGiMIUnbTNOJBoCqyvfc9ZaJFMKx1P8nFuAq-SI38E1Wb9TcUPUKdhZAuX3YyVQHnITyO-wuVzxUgqgRwhvbo58e8lOVUxOuAp8E4E58WTjcov8M4aGP8MpntLp2uiWQY-JH3InYEOL3s67WRugaUhTtFWZx",
+                       "photo_reference" : "Aap_uED5nbRAOXe2uvE8UJZembvoQr3zSP9pOgpo8xriOxwaRE82kVrrOBD9hpgCrZx0mKot-RJ6gY-okOBYDDtBlKZPWJX25DAmibOtjojwaWYLxR13wHneXfC_DfB8l_n03FdKSWOsTrqFNsyajci6oN_tFF5_Rl2JnZH7b34Mvd5DUPtE",
                        "width" : 1125
                     }
                  ],
@@ -863,7 +863,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107373603922332025156\"\u003eLily Chang\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECHh9zEQif-hD6moOOKaTc3XR3Kh8iH8pl1fBLiLcttks-689hreRCcnT-oQ23M3cEvk8bJkflbwCcfB_jc_xcVrfKgp5fbrhsnZt75uiBOwJdpwswwvZXga-1z3eZkzfbcJTMw2Lu5mObe9KsbpIRh-qaZ-RE0hidXvB02NXXEBEQ",
+                       "photo_reference" : "Aap_uEC6MkDBTSwT_SEgvWQjtNks0ItfNe2Y25S7IyOqO1XNJSl1vRkw4yPAsTINitU6A-WEETHBQxQhDjd8YpweyWRYOY0XXnmWvx8fingtNCgL1VmLTIIOf7ZnrjHJcOC01fG3i8pihtx24Nnls6NXXglYFI3gvIB66B6kpafwCDTWRQ4",
                        "width" : 3024
                     }
                  ],
@@ -876,7 +876,7 @@ http_interactions:
                  "rating" : 4.5,
                  "reference" : "ChIJ1ehL6tZ4bIcR8WyKkLSsMEQ",
                  "scope" : "GOOGLE",
-                 "types" : [ "cafe", "bar", "food", "point_of_interest", "store", "establishment" ],
+                 "types" : [ "cafe", "food", "bar", "point_of_interest", "store", "establishment" ],
                  "user_ratings_total" : 712,
                  "vicinity" : "1600 Glenarm Place, Denver"
               },
@@ -911,7 +911,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/109959689975747448682\"\u003eThe Alliance Center\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECQidjsF0U4Eay_3idg5hALwIGg_Gm8BeLHHKx3rPYFgr7wKA9TJ8Vyj6gad4ZCjR3a_nGk8k-bEnW1zv7ohGk1X0g2mvFkaiaerzwAiB2nDO5Z72ub0dGEaDS4gxn_ZCQRPhT8o6YI-1jgjmnhsigAVQfDOtjVny5f72cpSU-5J1ES",
+                       "photo_reference" : "Aap_uEAPSDYnNYLu7N1752wMug4aZNhYOHYX6rURc5aGTbabVBH4isXT0KBgoozFk94tfTEs_ciJYmiDqLw4nI8ukKMSOF5wBsCaqXJBM_YTPeo3vmXHqWUpI0lS6cykUhMKMPEk5Kwb5_hdPpXkZVav2Av-4j2hYbiPN33mWczZNdJYUuRF",
                        "width" : 5616
                     }
                  ],
@@ -950,7 +950,7 @@ http_interactions:
                  "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
                  "name" : "Starbucks",
                  "opening_hours" : {
-                    "open_now" : true
+                    "open_now" : false
                  },
                  "photos" : [
                     {
@@ -958,7 +958,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/105242518271508205960\"\u003eKeith Tomline\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEDyV_8dL2TDlG3nOiaUIR-DRVXYOwczZUwo1ZuihePjSf6_lMcHNgfrS8yWEmhJK0zIc9-ilKQ8F7JWqsKS5pJC7WxUsOt5cJyJYumCKnaHtHR5MN5tH7RC4VYU-_3bEa3MDxkW2KKN9Xgao6ivEQeoW6J4kov7OkLiVzEcsGGCRJlK",
+                       "photo_reference" : "Aap_uEBr3tcvz8-Ze8UyFVrdqmfI4YZ24F77_6w_cpTPzXxPga_gER4RRZldp9DlxHO7F2Kha1riyACCTCXIY6gKcUY2ddiET7IUrUK4_lHpPFMZcFWXStS7xFes_uKL7uV0nXjjOajmoV6PK6Ow9enB_TgOvy2i6RxLkA5o_qy5OzNhWEuK",
                        "width" : 4032
                     }
                  ],
@@ -1006,7 +1006,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103614928946175991574\"\u003eGeorge Foster\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uED3hFbhFXKeyCVhgSr7vC_JnnNmKpKJnxVn4LruVtX46b_H0K8LSCUv_vqJFqtZd2IhTwjLm2GtH5zkfFaEEnym3Gt5uuTaZvT1Z-AIIhBzQ3PnxK3MbtPw3xmKvBS_JwhLEpUzLDq1ckYrJz3ND-eT8xVQ1ka7ByR69tSIbU9QRrSM",
+                       "photo_reference" : "Aap_uECpAb3LyFmr2YsA3PtNpcGfqV4JbPBLCIwuBCcAi97ujuXJs7VYnxt2qEmeyL75wqx2MT4fLRQ34FBJinGCQppsXLU4MTfM8dL4ONYjPDxObNZz2lomWa2HwPaIvDBDIgEnyNigca7nhbDJNEm2LESxZxQ9yQLTuIqF044eo_MI1Gv5",
                        "width" : 4032
                     }
                  ],
@@ -1052,7 +1052,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/103865731934417906422\"\u003eBick Benedict\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uED5SFvw3SmlD-kap1kTVxuBQLatWwpTUmUEtuc9bGcdiUyUhMG_8qvXS6gXtppJepT-d5ZrN3w_SoUaTcr0IB_1_9oabg6etfkpEYz3tS4ugyseWcPCqVkgh0tqcpcIhSjUQb8ke6Oe7ozz9CYu4mb6KlHGs3WVdiUcaKPSxxjxIAyG",
+                       "photo_reference" : "Aap_uECgv4VC7csNRceoNsT4pF8UewjKLbgOzgb5-h5avCU-CsiPsC7N5Jp2Ov1mAsPP_WzzW247GmCJor2N33nO41HzyJecJosuIkoHjpedvGyFn1R8M0RThCukxd90-mKI77nozhAs-1K2P_Y1ly5HjVQ0nWjAqEDxrMkMNDN91O8bkejo",
                        "width" : 2988
                     }
                  ],
@@ -1108,7 +1108,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/117711220499010239186\"\u003eTina Pino\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEAPmqR78tq9rL_JWCnKCUHWKOjqRZNYn2nvl37zwWYkaRlevNI_p4Pvz7VE6c1dRyJxVitln8sDaEidcAM7d760a4m1SfYg8z6L8eTCjsmKE2WKKQ5ivOuXUzfZCAH0-SAP8KCpsojmSZ7Q45zYKP0L430HtX8rlas36uMzZrUs1dNO",
+                       "photo_reference" : "Aap_uEDLoTpXBgr98XKYW9NNKyp7C-DOe8HCo3fEwnTkQEkcRBHpqBFPhNfczI1OHtPtiWHnLiVRQkzmDYlF87pPJ5IzkuO5gTx_Oxn4jZZlE-k3It8z35RTrllt7TR3adaIMuMOSslo-kze27p47uSYhLDcyG1VaJPAVpS-XPRyi9vWMBcY",
                        "width" : 2048
                     }
                  ],
@@ -1156,7 +1156,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/105379789701475622852\"\u003eAryeh Landowne\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEB0RobHt-2B5aikt2eTmV6YFlgcC4h3c4cn1l7-1m4EkdiBCAXXCkIjKg9EGnMybxEDGSrqBhcpjrxOfAfB3V4XZz0iFETPTwSiWhRjC7zsarKHMrT6tUagOe-OD83CjTKcgoXD37ASd9t6kZ86kqRNOPaJgaQdvyaCEb945wuOnwzF",
+                       "photo_reference" : "Aap_uECJ90g_PYREBqD-G-4pNbHS83tlCvLQU4-1vvyrh1P-R7rO_Ob7uS_5WVPxKU-7KA168_7HXLPq3Fki-EDKawNkY_QtojsqHuVlIiKsodFgzhdo0ZjSGGAS2N8q9SqHXRgT1GACrrQ5_zMX8bYpBGI3rBgCCeDvSISpoLL5HDMLVEV-",
                        "width" : 3024
                     }
                  ],
@@ -1212,7 +1212,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107538160601433139539\"\u003eIntermission Cafe\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uECgMCUXIJEU0Tfj6ZPHnaHrOu_T5mVawX3_4E3VqXGPU56uJg_d4vzJEbc1AlDJ0TxdEY7xj_Nkm5TtLK2wam-LOrDgaaFBzuGg6RLQIFuSSNlnX9vEqFzDDyZ9QFxDpU1fiGJCqoOGbNcpKExDkwfsDLCRdMcwcIK_r2c4Ibnaff3F",
+                       "photo_reference" : "Aap_uEAmXDtX8W25IsmGPui4Q6uYYZdvNygdRZwntmhjpsgXMiASrwWCUh1fEol_Z2xdNCRGixpdIoBqUyNh1qFJBc4tnIj5ktR5CihmLTfaTlLELbUB8dBjCaY7DjnTh8apcq4WPSfcHKKIb2nnl8IMIbnLUvh1Qj0atH-5Q48NmW6kuMJg",
                        "width" : 693
                     }
                  ],
@@ -1259,7 +1259,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/112503689357757765819\"\u003eAfternoon Tea at The Brown Palace\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEBD0DIZung5qcBAwEfUXLxrq-S5QvzNMTbRPN7xkNLx-_G5jG8xD-WG51nWz2hxZb3z-61uDpMTpBLVO3dzSdUouOuk8BEeV3ftvk0O0PM1EuSm6164Lb2pwHyOogO-Nz2LzWfP_pFpdKArWCT04yeSQGZ3IUrY2r_dTQkUbS_p9ifS",
+                       "photo_reference" : "Aap_uEDDJg4A6JwSIzDyUvH4HikBiXRWFOtOJAQjbm3gHWFFV9Tn2nKuKHjs5xKGGhlaWD4ANXlaP83W39FlNuRXW_Ep9ySTbvs2EvpZfOFa1WSdbzZn8EEwyF89JtzyXKfU-UH8A8cxFckO2CFpP2n6JSvkEKkAeHfMlTkqdXFSSsPkYilj",
                        "width" : 2048
                     }
                  ],
@@ -1271,7 +1271,7 @@ http_interactions:
                  "rating" : 4.5,
                  "reference" : "ChIJ9dBRb9Z4bIcRsmFlxxOFd1k",
                  "scope" : "GOOGLE",
-                 "types" : [ "cafe", "bar", "food", "point_of_interest", "establishment" ],
+                 "types" : [ "cafe", "food", "bar", "point_of_interest", "establishment" ],
                  "user_ratings_total" : 203,
                  "vicinity" : "321 17th Street, Denver"
               },
@@ -1306,7 +1306,7 @@ http_interactions:
                        "html_attributions" : [
                           "\u003ca href=\"https://maps.google.com/maps/contrib/107156547597850084304\"\u003eAnirudh Koul\u003c/a\u003e"
                        ],
-                       "photo_reference" : "Aap_uEAj_oZHHdiNpZXFEzRTTmfYFdmwJO5r8_CGmy37mIq3G0qbvbWbYDmk1nVMYoBHKRp97RHZspvUAQJBtM40f0IPtgt6rszvYlTBFi1cuhEhyf0IBD6Wjqer1NEzrYjF2VTq8WXyFmIUp3T-DkBgiUUqwq8ZEvuZoUNCWP6am7-DbLAe",
+                       "photo_reference" : "Aap_uEDuu9DDNGjvLZzFxkTqBIS8lKXeTtZUxQZ71VpF0f0tAnJMvI5bsTKt7XRWM22LMJxaqlf43R56rYXsmj34VkDHyWJldzu4zRJopZasrMuaRMIIYr9RMLZN459v_jsXJsRsElWOu3N9B8F6C07t3boEkzwX4za4iIbjmj1aQCaSgnXH",
                        "width" : 4032
                     }
                  ],
@@ -1326,5 +1326,5 @@ http_interactions:
            ],
            "status" : "OK"
         }
-  recorded_at: Mon, 06 Jun 2022 00:35:01 GMT
+  recorded_at: Mon, 06 Jun 2022 01:30:10 GMT
 recorded_with: VCR 6.1.0

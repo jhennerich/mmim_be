@@ -8,7 +8,8 @@ describe GoogleMapApiService do
       stub_request(:get, "https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{ENV['google_api_key']}")
       .to_return(status: 200, body: json_response, headers: {})
 
-      response = GoogleMapApiService.address_to_geocode(address)[:results]
+      service = GoogleMapApiService.new
+      response = service.address_to_geocode(address)[:results]
 
       expect(response).to be_an(Array)
       expect(response[0][:geometry][:location]).to be_a(Hash)
@@ -26,7 +27,8 @@ describe GoogleMapApiService do
       stub_request(:get, "https://maps.googleapis.com/maps/api/place/nearbysearch/json?#{attributes}&key=#{ENV['google_api_key']}")
       .to_return(status: 200, body: json_response, headers: {})
 
-      response = GoogleMapApiService.nearbysearch(attributes)[:results]
+      service = GoogleMapApiService.new
+      response = service.nearbysearch(attributes)[:results]
 
       expect(response).to be_an(Array)
       expect(response[0][:geometry][:location]).to be_a(Hash)

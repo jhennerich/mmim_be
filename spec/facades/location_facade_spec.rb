@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'Location Facade' do
-  xit 'returns locations given a midpoint' do
+  it 'returns locations given a midpoint', :vcr do
     mid_coord = "39.7512038%2C-104.9447319"
     attributes = "location=#{mid_coord}&type=cafe&rankby=distance"
     json_response = File.read('spec/fixtures/nearbysearch.json')
@@ -9,14 +9,7 @@ describe 'Location Facade' do
     .to_return(status: 200, body: json_response, headers: {})
 
     location_results = LocationFacade.get_near_by_locations(mid_coord, "cafe")
-    binding.pry
-    expect(location_results).to be_a(String)
-
-#    geocode = MidpointFacade.address_to_geocode(address)
-#    expect(geocode).to be_a(Hash)
-#    expect(geocode).to have_key(:lat)
-#    expect(geocode[:lat]).to be_a(Float)
-#    expect(geocode).to have_key(:lng)
-#    expect(geocode[:lng]).to be_a(Float)
+    expect(location_results).to be_a(Array)
+    expect(location_results.first).to be_a(LocationResponse)
   end
 end

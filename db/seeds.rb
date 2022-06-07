@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+host = User.create!(name: 'john', email: 'john@email.com')
+guest = User.create!(name: 'max', email: 'max@email.com')
+meeting_1 = Meeting.create(status: 0)
+meeting_2 = Meeting.create(status: 0)

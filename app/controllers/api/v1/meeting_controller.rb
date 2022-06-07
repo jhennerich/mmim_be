@@ -16,6 +16,7 @@ class Api::V1::MeetingController < ApplicationController
     meeting = Meeting.find(meeting_params[:meeting_id])
     if meeting
       meeting.destroy
+    render json: { :status => 'deleted' }, status: 201
     end
   end
 

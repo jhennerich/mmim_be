@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :users, only: [:create]
       resources :search, only: [:index]
       resources :search_by_user, only: [:index]
+      resources :meeting, only: [:create]
     end
   end
 end

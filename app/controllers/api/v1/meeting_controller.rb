@@ -12,6 +12,12 @@ class Api::V1::MeetingController < ApplicationController
     render json: { :status => 'ok' }, status: 201
   end
 
+  def destroy
+    meeting = Meeting.find(meeting_params[:meeting_id])
+    if meeting
+      meeting.destroy
+    end
+  end
 
   private
 

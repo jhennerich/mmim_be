@@ -15,6 +15,16 @@ RSpec.describe 'Meeting API endpoint' do
     created_meeting = Meeting.last
     expect(response).to be_successful
     expect(created_meeting.status).to eq('pending')
+  end
+  it 'can delete a meeting' do
+    meeting = Meeting.create(status: 0)
+    deleted_meeting = Meeting.create(status: 0)
+    meeting_params = { :meeting_id =>"#{deleted_meeting.id}"}.to_json
+    meetings = Meeting.all
+    delete "/api/v1/meeting", params: {params: meeting_params}
 
+    expect(response).to be_successful
+    expect(meetings.count).to eq(1)
+    expect{Meeting.find(deleted_meeting.id)}.to raise_error(ActiveRecord::RecordNotFound)
   end
 end

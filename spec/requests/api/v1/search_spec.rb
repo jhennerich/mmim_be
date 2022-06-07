@@ -16,7 +16,7 @@ RSpec.describe 'The search API' do
 
     expect(response).to be_successful
     locations = JSON.parse(response.body, symbolize_names: true)[:data]
-    locations.each do |location|
+    locations[0..4].each do |location|
       expect(location).to have_key(:id)
       expect(location[:id]).to be_a(String)
 
@@ -51,7 +51,7 @@ RSpec.describe 'The search API' do
       expect(location[:attributes][:image_url]).to be_a(String)
 
       expect(location[:attributes]).to have_key(:price_level)
-      expect(location[:attributes][:price_level]).to be_a(Integer)
+      expect(location[:attributes][:price_level]).to be_in([nil,1,2,3,4])
     end
   end
 end

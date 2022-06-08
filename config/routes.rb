@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       put '/users', to: 'users#update'
+      get 'user_meetings', to: 'user_meetings#index'
       get 'find_user', to: 'users#find'
       resources :users, only: [:create]
       resources :search, only: [:index]

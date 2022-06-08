@@ -2,11 +2,11 @@ require 'rails_helper'
 
 describe GoogleMapApiService do
   describe 'happy paths' do
-    it 'can get lat and lng for a street address' do
+    it 'can get lat and lng for a street address', :vcr do
       address = "2300 Steele St, Denver, CO 80205, USA"
-      json_response = File.read('spec/fixtures/address_to_geocode.json')
-      stub_request(:get, "https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{ENV['google_api_key']}")
-      .to_return(status: 200, body: json_response, headers: {})
+      # json_response = File.read('spec/fixtures/address_to_geocode.json')
+      # stub_request(:get, "https://maps.googleapis.com/maps/api/geocode/json?address=#{address}&key=#{ENV['google_api_key']}")
+      # .to_return(status: 200, body: json_response, headers: {})
 
       service = GoogleMapApiService.new
       response = service.address_to_geocode(address)[:results]

@@ -17,11 +17,11 @@ describe "Users API" do
   end
 
   it 'finds a user via email' do 
-    params = {name: 'user2', email: 'user2.email.com'}.to_json
+    params = {email: 'user2.email.com'}.to_json
 
-    post "/api/v1/users", params: {params: params}
+    get "/api/v1/find_user", params: {params: params}
 
-    expect(response.status).to eq(201)
+    expect(response.status).to eq(200)
 
     user_found = User.find_by(email: 'user2.email.com')
     expect(user_found).to eq(user2)
@@ -44,5 +44,6 @@ describe "Users API" do
     expect(updated_user.email).to eq('test@email.com')
     expect(updated_user.address).to eq('123 st, city, state, 80123')
   end
+
 
 end

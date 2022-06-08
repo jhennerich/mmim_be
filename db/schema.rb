@@ -15,22 +15,11 @@ ActiveRecord::Schema.define(version: 2022_06_02_173716) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "locations", force: :cascade do |t|
-    t.bigint "meeting_id"
-    t.string "place_id"
-    t.string "name"
-    t.string "address"
-    t.float "rating"
-    t.string "img_url"
-    t.string "price_range"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["meeting_id"], name: "index_locations_on_meeting_id"
-  end
-
   create_table "meetings", force: :cascade do |t|
-    t.integer "status", default: 0
-    t.string "place_id"
+    t.string "location_name"
+    t.string "location_address"
+    t.string "host_name"
+    t.string "guest_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -53,7 +42,6 @@ ActiveRecord::Schema.define(version: 2022_06_02_173716) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "locations", "meetings"
   add_foreign_key "user_meetings", "meetings"
   add_foreign_key "user_meetings", "users"
 end

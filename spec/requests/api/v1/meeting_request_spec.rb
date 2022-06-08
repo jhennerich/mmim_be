@@ -15,11 +15,24 @@ RSpec.describe 'Meeting API endpoint' do
     post "/api/v1/meeting", params: {params: meeting_params}
     created_meeting = Meeting.last
     expect(response).to be_successful
-    expect(created_meeting.status).to eq('pending')
+    expect(created_meeting.host_name).to eq('john')
+    expect(created_meeting.guest_name).to eq('max')
+    expect(created_meeting.location_name).to eq("John's House")
+    expect(created_meeting.location_address).to eq('1583 Newton St Denver CO')
+
+
   end
   it 'can delete a meeting' do
-    meeting = Meeting.create(status: 0)
-    deleted_meeting = Meeting.create(status: 0)
+    a_meeting = Meeting.create!(location_name: "Somewhere",
+          location_address: "123 Anywhere St",
+          host_name: "john",
+          guest_name: "max" )
+
+    deleted_meeting = Meeting.create(location_name: "John's House",
+          location_address: "1583 Newton St. Denver CO",
+          host_name: "john",
+          guest_name: "max" )
+
     meeting_params = { :meeting_id =>"#{deleted_meeting.id}"}.to_json
     meetings = Meeting.all
     delete "/api/v1/meeting", params: {params: meeting_params}

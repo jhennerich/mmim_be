@@ -20,7 +20,7 @@ describe GoogleMapApiService do
 
     end
 
-    it 'can get nearby locations given a midpoint' do
+    xit 'can get nearby locations given a midpoint', :vcr do
       mid_coord = "39.7512038%2C-104.9447319"
       attributes = "location=#{mid_coord}&type=cafe&rankby=distance"
       json_response = File.read('spec/fixtures/nearbysearch.json')

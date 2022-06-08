@@ -8,7 +8,8 @@ RSpec.describe 'Meeting API endpoint' do
     meeting_params = {
       :host_email=>"john@email.com",
       :guest_email=>"max@email.com",
-      :place_ids=>["ChIJk4m1HlJ-bIcRJhx_J2Wu6yI", "ChIJs475Y36AbIcRv5MAFA7M5zM", "ChIJxUOrn8p_bIcRn-Nczgjz188"]
+      :location_name=>"John's House",
+      :location_address =>"1583 Newton St Denver CO"
     }.to_json
 
     post "/api/v1/meeting", params: {params: meeting_params}

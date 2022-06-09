@@ -1,4 +1,4 @@
-class Api::V1::UsermeetingsController < ApplicationController
+class Api::V1::UserMeetingsController < ApplicationController
 
   def index
     user = User.find_by(email: user_params[:email])

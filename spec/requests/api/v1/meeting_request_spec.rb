@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'Meeting API endpoint' do
   it 'can create a meeting' do
-    host = User.create!(name: 'john', email: 'john@email.com')
-    guest = User.create!(name: 'max', email: 'max@email.com')
+    host = User.find_or_create_by!(name: 'john', email: 'john@email.com')
+    guest = User.find_or_create_by!(name: 'max', email: 'max@email.com')
 
     meeting_params = {
       :host_email=>"john@email.com",
@@ -35,10 +35,11 @@ RSpec.describe 'Meeting API endpoint' do
 
     meeting_params = { :meeting_id =>"#{deleted_meeting.id}"}.to_json
     meetings = Meeting.all
+    num_of_meetings = meetings.count
     delete "/api/v1/meeting", params: {params: meeting_params}
 
     expect(response).to be_successful
-    expect(meetings.count).to eq(1)
+    expect(num_of_meetings - 1).to eq(meetings.count)
     expect{Meeting.find(deleted_meeting.id)}.to raise_error(ActiveRecord::RecordNotFound)
   end
 end

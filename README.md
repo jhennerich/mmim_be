@@ -31,6 +31,43 @@ The Meet Me in the Middle back end repository supports the front end repository 
 - Save users.
 ```shell
 POST /api/v1/users
+  "data": {
+    "type": "user",
+    "id": "1",
+    "attributes": {
+      "name": "Some person",
+      "email": "sample@email.com",
+      "address": null
+    }
+  }
+```
+
+- Update users.
+```shell
+PUT /api/v1/users/{{user.id}}, body: {"address": "updated_address"}
+"data": {
+    "type": "user",
+    "id": "1",
+    "attributes": {
+      "name": "Some person",
+      "email": "sample@email.com",
+      "address": “updated_address”
+    }
+  }
+```
+
+- Search users by email.
+```shell
+GET http://localhost:3000/api/v1/users/find_by?email={{email}}
+"data": {
+    "type": "user",
+    "id": "1",
+    "attributes": {
+      "name": "Some person",
+      "email": "sample@email.com",
+      "address": “updated_address”
+    }
+  }
 ```
 
 - Search for nearby locations to the midpoint between two locations.

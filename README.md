@@ -28,14 +28,60 @@ The Meet Me in the Middle back end repository supports the front end repository 
 
 ## Endpoints
 
-- Take address and get latitude and longitude.
+- Save users.
 ```shell
-GET https://maps.googleapis.com/maps/api/geocode/json?address={address}
+POST /api/v1/users
 ```
 
-- Search for nearby locations.
+- Search for nearby locations to the midpoint between two locations.
 ```shell
-GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={coord}&type={category}&rankby=distance
+GET /api/v1/search
+"data": [
+        {
+            "id": "1",
+            "type": "location",
+            "attributes": {
+                "id": 1,
+                "name": "Craft Fine Street Food",
+                "place_id": "ChIJFWYEjYB5bIcRmxn8I3pwIyI",
+                "address": "2300 Steele Street, Denver",
+                "lat": 39.7501721,
+                "lng": -104.9507145,
+                "rating": 5.0,
+                "image_url": "Aap_uEA2DeYoTfsa2YAAKTBLjbr5uUMN3iaeYtNpz9ehr1lV8YVBESiDv
+                -xupQ2STTcWLYf8zhiXFptVPgoyUIhlahQLYxzw5kvFuZq68OvJb9U54gh8ZJEprez
+                ozU-IgXZZV9L9kOBMyPnpWrOI7RKTSw7yWk_ycMU9ltvXqaKidbtOtQSI",
+                "price_level": null
+            }
+        },
+      ]     
+```
+
+- Returns meetings with other users.
+```shell
+GET /api/v1/user_meetings
+"data": [
+        {
+            "id": "1",
+            "type": "meeting",
+            "attributes": {
+                "host_name": "john",
+                "guest_name": "max",
+                "location_name": "A great place",
+                "location_address": "123 test way"
+            }
+        },
+        {
+            "id": "2",
+            "type": "meeting",
+            "attributes": {
+                "host_name": "john",
+                "guest_name": "max",
+                "location_name": "A bad place",
+                "location_address": "234 test blvd"
+            }
+        },
+      ]
 ```
 
 ## Requirements

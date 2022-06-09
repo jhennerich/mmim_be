@@ -32,8 +32,6 @@ Note: You must also install and run [mmie_fe](https://github.com/MMIM-Turing/mmi
 
 ### API
 - Go to [Google](https://developers.google.com) and follow instructions for Google Developer setup and to create an API key.
-- Create a [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/start).
-- Create a [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview).
 
 ## Setup
 1. Clone this repository: On your local machine, open a terminal session and enter the following commands for SSH or HTTPS to clone the repo.

@@ -26,12 +26,24 @@ The Meet Me in the Middle back end repository supports the front end repository 
 
 ![schema](./img/schema.png)
 
+## Endpoints
+
+- Take address and get latitude and longitude.
+```shell
+GET https://maps.googleapis.com/maps/api/geocode/json?address={address}
+```
+
+- Search for nearby locations.
+```shell
+GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={coord}&type={category}&rankby=distance
+```
+
 ## Requirements
 
 Note: You must also install and run [mmie_fe](https://github.com/MMIM-Turing/mmim_fe) for full functionality.
 
 ### API
-- Go to [Google](https://developers.google.com) and follow instructions for Google Developer setup and to create an API key.
+Go to [Google](https://developers.google.com) and follow instructions for Google Developer setup and to create an API key.
 
 ## Setup
 1. Clone this repository: On your local machine, open a terminal session and enter the following commands for SSH or HTTPS to clone the repo.

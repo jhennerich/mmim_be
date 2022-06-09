@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'user_meeting API endpoint' do
   it 'returns all meeting data for a give user email' do
-    host = User.create!(name: 'john', email: 'john@email.com')
-    guest = User.create!(name: 'max', email: 'max@email.com')
+    host = User.find_or_create_by!(name: 'john', email: 'john@email.com')
+    guest = User.find_or_create_by!(name: 'max', email: 'max@email.com')
     meeting = Meeting.create!(
       :host_name=>"john",
       :guest_name=>"max",

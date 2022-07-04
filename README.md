@@ -16,7 +16,7 @@
 
 ## App
 
-Meet Me in the Middle app can be found on [heroku](https://mmim.herokuapp.com/).
+Meet Me in the Middle app can be found on [heroku](https://majestic-gunnison-09276.herokuapp.com/).
 
 ## Background
 
